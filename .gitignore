@@ -1,0 +1,79 @@
+# ================= #
+# Unity generated  #
+# ================= #
+
+PlainWorld/[Ll]ibrary/
+PlainWorld/[Tt]emp/
+PlainWorld/[Oo]bj/
+PlainWorld/[Bb]uild/
+PlainWorld/[Bb]uilds/
+PlainWorld/[Ll]ogs/
+PlainWorld/[Mm]emoryCaptures/
+PlainWorld/UserSettings/
+
+# Asset meta data should be tracked
+# *.meta
+
+# =============================== #
+# Visual Studio / Rider / VSCode #
+# =============================== #
+
+# Visual Studio
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.opendb
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# =================== #
+# OS generated files #
+# =================== #
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+UserSettings/
+
+.vs/
+.vscode/
+
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+
+.DS_Store
+Thumbs.db
