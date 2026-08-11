@@ -301,6 +301,41 @@ namespace Assets.Services
                 }
             });
         }
+
+        public async Task Send(string method, params object[] args)
+        {
+            if (!IsConnected)
+            {
+                return; // silently drop
+            }
+
+            int retryCount = 3;
+            int delay = 200;
+
+            for (int i = 0; i < retryCount; i++)
+            {
+                try
+                {
+                    await SendEvent(method, args);
+                    return;
+                }
+                catch (Exception ex)
+                {
+                    if (!IsConnected)
+                    {
+                        return;
+                    }
+
+                    if (i == retryCount - 1)
+                    {
+                        return;
+                    }
+
+                    await Task.Delay(delay);
+                    delay *= 2;
+                }
+            }
+        }
         #endregion
     }
 }
