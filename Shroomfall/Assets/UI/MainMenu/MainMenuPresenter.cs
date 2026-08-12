@@ -77,9 +77,9 @@ namespace Assets.UI.MainMenu
         }
 
         private void OnUIStateChanged(
-            UIService state)
+            UIService service)
         {
-            mainMenuView.SetVisible(state.ShowMainMenu);
+            mainMenuView.SetVisible(service.ShowMainMenu);
         }
 
         private void OnSteamAuthClicked()
