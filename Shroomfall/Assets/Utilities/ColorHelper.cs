@@ -1,4 +1,4 @@
-﻿using Contract.DTO.Common;
+﻿using Contract.Common;
 using UnityEngine;
 
 /*
@@ -27,15 +27,15 @@ namespace Assets.Utilities
         #endregion
 
         #region Methods
-        public static HSVDTO ToHSV(
+        public static HSV ToHSV(
             Color color)
         {
             Color.RGBToHSV(color, out float h, out float s, out float v);
-            return new HSVDTO { H = h, S = s, V = v };
+            return new HSV { H = h, S = s, V = v };
         }
 
         public static Color ToColor(
-            HSVDTO hsv)
+            HSV hsv)
         {
             return Color.HSVToRGB(hsv.H, hsv.S, hsv.V);
         }
