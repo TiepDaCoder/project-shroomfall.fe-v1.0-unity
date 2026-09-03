@@ -1,6 +1,6 @@
 ﻿using Assets.Source.Core;
 using Assets.Source.Enum;
-using Assets.Service;
+using Assets.Source.Service;
 using UnityEngine;
 
 namespace Assets.Source.Gameplay.Component.Input

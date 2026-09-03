@@ -1,9 +1,9 @@
-﻿using Assets.Service;
+﻿using Assets.Source.Service;
 using Assets.Source.Gameplay.Component.Input;
-using Assets.Source.Utilities;
+using Assets.Source.Utility;
 using UnityEngine;
 
-namespace Assets.Gameplay.Factory
+namespace Assets.Source.Gameplay.Factory
 {
     public class InputBinder
     {

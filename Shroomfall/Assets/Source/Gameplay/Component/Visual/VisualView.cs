@@ -1,5 +1,5 @@
 ﻿using Assets.Source.Data;
-using Assets.Source.Utilities;
+using Assets.Source.Utility;
 using Contract.Enum.EntityDomain;
 using System.Collections;
 using TMPro;

@@ -1,14 +1,14 @@
-﻿using Assets.Gameplay.Entity;
-using Assets.Service;
+﻿using Assets.Source.Gameplay.Entity;
+using Assets.Source.Service;
 using Assets.Source.Data;
 using Assets.Source.Gameplay.Component.Input;
-using Assets.Source.Utilities;
+using Assets.Source.Utility;
 using Contract.DTO.Runtime.EntityDomain;
 using Contract.DTO.Runtime.EntityDomain.Component;
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.Gameplay.Factory
+namespace Assets.Source.Gameplay.Factory
 {
     public class EntityFactory
     {

@@ -1,6 +1,6 @@
 ﻿using Assets.Source.Enum;
 using Assets.Source.Service;
-using Assets.UI.Models;
+using Assets.Source.UI.Model;
 using System;
 
 namespace Assets.Source.UI.Common.Toast

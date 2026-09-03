@@ -1,8 +1,9 @@
-﻿using Assets.Gameplay.Factory;
-using Assets.Service;
+﻿using Assets.Source.Gameplay.Factory;
+using Assets.Source.Gameplay.Entity;
+using Assets.Source.Service;
 using Assets.Source.Data;
 using Assets.Source.Gameplay.Component.Input;
-using Assets.Source.Utilities;
+using Assets.Source.Utility;
 using Contract.DTO.Runtime.EntityDomain;
 using Contract.DTO.Runtime.EntityDomain.Component;
 using Contract.Enum.EntityDomain;

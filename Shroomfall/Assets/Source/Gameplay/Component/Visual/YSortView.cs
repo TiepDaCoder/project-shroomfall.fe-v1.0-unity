@@ -9,16 +9,13 @@ namespace Assets.Source.Gameplay.Component.Visual
     public class YSortView : MonoBehaviour
     {
         #region Attributes
-
         private SortingGroup group;
         private SpriteRenderer spriteRenderer;
         private const float SORT_STEP = 0.5f;
         private const int SORT_MULTIPLIER = 100;
-
         #endregion
 
         #region Unity Lifecycle
-
         private void OnEnable()
         {
             group = GetComponent<SortingGroup>();

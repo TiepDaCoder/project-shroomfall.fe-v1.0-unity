@@ -1,41 +1,43 @@
 ﻿using Assets.Source.Service;
 using Assets.Source.UI.Abstraction;
-using Assets.Source.UI.Common.Toast;
-using Assets.Source.Utilities;
+using Assets.Source.Utility;
 using System.Collections;
 using UnityEngine;
 
-public class ToastInstaller : Installer
+namespace Assets.Source.UI.Common.Toast
 {
-    #region Attributes
-    [SerializeField]
-    private ToastView toastView;
-    private ToastPresenter toastPresenter;
-
-    private UIService uiService;
-    #endregion
-
-    #region Properties
-    public override string StepName
+    public class ToastInstaller : Installer
     {
-        get { return UILocalizationTable.Get("toast-binder.step-name"); }
-    }
-    #endregion
+        #region Attributes
+        [SerializeField]
+        private ToastView toastView;
+        private ToastPresenter toastPresenter;
 
-    #region Methods
-    public override IEnumerator BindAllServices()
-    {
-        yield return BindWhenReady<UIService>(ui => { uiService = ui; });
+        private UIService uiService;
+        #endregion
 
-        // Resolve dependencies
-        toastPresenter = new ToastPresenter(
-            uiService,
-            toastView);
-    }
+        #region Properties
+        public override string StepName
+        {
+            get { return UILocalizationTable.Get("toast-binder.step-name"); }
+        }
+        #endregion
 
-    private void OnDestroy()
-    {
-        toastPresenter?.Dispose();
+        #region Methods
+        public override IEnumerator BindAllServices()
+        {
+            yield return BindWhenReady<UIService>(ui => { uiService = ui; });
+
+            // Resolve dependencies
+            toastPresenter = new ToastPresenter(
+                uiService,
+                toastView);
+        }
+
+        private void OnDestroy()
+        {
+            toastPresenter?.Dispose();
+        }
+        #endregion
     }
-    #endregion
 }

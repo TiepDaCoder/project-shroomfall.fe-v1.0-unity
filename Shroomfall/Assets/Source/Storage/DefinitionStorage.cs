@@ -1,4 +1,4 @@
-using Assets.Source.Utilities;
+using Assets.Source.Utility;
 using Contract.DTO.Feature.Design.Response;
 using Newtonsoft.Json;
 using System.IO;

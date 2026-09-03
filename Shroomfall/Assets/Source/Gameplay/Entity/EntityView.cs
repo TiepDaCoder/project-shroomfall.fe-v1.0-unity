@@ -1,8 +1,9 @@
 ﻿using Assets.Source.Data;
+using Assets.Source.Gameplay.Component.Visual;
 using Contract.Enum.EntityDomain;
 using UnityEngine;
 
-namespace Assets.Gameplay.Entity
+namespace Assets.Source.Gameplay.Entity
 {
     public class EntityView : MonoBehaviour
     {

@@ -1,4 +1,5 @@
-﻿using Contract.Enum.EntityDomain;
+﻿using Assets.Source.UI.Feature.HUDUtils;
+using Contract.Enum.EntityDomain;
 using System;
 using TMPro;
 using UnityEngine;
@@ -38,7 +39,7 @@ namespace Assets.Source.Gameplay.Component.Input
             // ========================================================
             // 0. HUD TOGGLE & BLOCKER
             // ========================================================
-            if (Input.GetKeyDown(KeyCode.E) && hudUtilsView != null)
+            if (UnityEngine.Input.GetKeyDown(KeyCode.E) && hudUtilsView != null)
             {
                 hudUtilsView.ToggleHUD();
             }
@@ -59,13 +60,13 @@ namespace Assets.Source.Gameplay.Component.Input
             // 1. Gather Raw Input States
             // ========================================================
             Vector2 dir = new Vector2(
-                Input.GetAxisRaw("Horizontal"),
-                Input.GetAxisRaw("Vertical")
+                UnityEngine.Input.GetAxisRaw("Horizontal"),
+                UnityEngine.Input.GetAxisRaw("Vertical")
             ).normalized;
 
-            bool isClicked = Input.GetMouseButtonDown(0);
+            bool isClicked = UnityEngine.Input.GetMouseButtonDown(0);
             bool isMoving = dir != Vector2.zero;
-            bool isInteract = Input.GetKeyDown(KeyCode.Space);
+            bool isInteract = UnityEngine.Input.GetKeyDown(KeyCode.Space);
 
             if (isInteract)
             {
@@ -78,7 +79,7 @@ namespace Assets.Source.Gameplay.Component.Input
             // ========================================================
             if (isClicked)
             {
-                Vector3 screenMouse = Input.mousePosition;
+                Vector3 screenMouse = UnityEngine.Input.mousePosition;
                 screenMouse.z = Mathf.Abs(Camera.main.transform.position.z);
                 Vector3 worldMouse = Camera.main.ScreenToWorldPoint(screenMouse);
 

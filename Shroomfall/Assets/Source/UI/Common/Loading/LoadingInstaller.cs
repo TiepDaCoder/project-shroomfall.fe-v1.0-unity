@@ -1,6 +1,6 @@
 ﻿using Assets.Source.Service;
 using Assets.Source.UI.Abstraction;
-using Assets.Source.Utilities;
+using Assets.Source.Utility;
 using System.Collections;
 using UnityEngine;
 

@@ -1,4 +1,4 @@
-﻿using Assets.Source.Utilities;
+﻿using Assets.Source.Utility;
 using Newtonsoft.Json;
 using System;
 using System.IO;
