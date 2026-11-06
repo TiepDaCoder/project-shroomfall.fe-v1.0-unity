@@ -1,0 +1,652 @@
+{
+    "playerData": {
+        "Id": "player_archer_01",
+        "DefinitionID": "archer",
+        "Components": [
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.CollisionInstanceDTO, Contract"
+            },
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.TransformInstanceDTO, Contract",
+                "LayerZ": 0,
+                "Position": {
+                    "X": 0.0,
+                    "Y": 0.0
+                },
+                "FacingDirection": 0,
+                "CurrentAction": 0
+            },
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.CharacteristicInstanceDTO, Contract",
+                "Cores": [
+                    {
+                        "AttributeType": 0,
+                        "Value": 120.0
+                    },
+                    {
+                        "AttributeType": 1,
+                        "Value": 80.0
+                    },
+                    {
+                        "AttributeType": 11,
+                        "Value": 18.0
+                    },
+                    {
+                        "AttributeType": 12,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 13,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 14,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 15,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 16,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 17,
+                        "Value": 3.2
+                    },
+                    {
+                        "AttributeType": 18,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 19,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 20,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 21,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 22,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 23,
+                        "Value": 0.10
+                    },
+                    {
+                        "AttributeType": 24,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 25,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 26,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 27,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 28,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 29,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 30,
+                        "Value": 0.98
+                    },
+                    {
+                        "AttributeType": 31,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 32,
+                        "Value": 0.80
+                    },
+                    {
+                        "AttributeType": 33,
+                        "Value": 0.0
+                    },
+                    {
+                        "AttributeType": 34,
+                        "Value": 0.0
+                    }
+                ],
+                "Vitals": [
+                    {
+                        "AttributeType": 0,
+                        "Value": 120.0
+                    },
+                    {
+                        "AttributeType": 1,
+                        "Value": 80.0
+                    }
+                ],
+                "CurrentLevel": 1
+            },
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.InventoryInstanceDTO, Contract",
+                "Items": [
+                    {
+                        "ID": "inv_item_wood",
+                        "DefinitionID": "wood",
+                        "Amount": 50,
+                        "Quality": 1,
+                        "Durability": null,
+                        "EquippedSlot": null
+                    },
+                    {
+                        "ID": "inv_item_stone",
+                        "DefinitionID": "stone",
+                        "Amount": 30,
+                        "Quality": 0,
+                        "Durability": null,
+                        "EquippedSlot": null
+                    },
+                    {
+                        "ID": "inv_item_ore_copper",
+                        "DefinitionID": "ore-copper",
+                        "Amount": 10,
+                        "Quality": 1,
+                        "Durability": null,
+                        "EquippedSlot": null
+                    },
+                    {
+                        "ID": "inv_item_bar_copper",
+                        "DefinitionID": "bar-copper",
+                        "Amount": 5,
+                        "Quality": 1,
+                        "Durability": null,
+                        "EquippedSlot": null
+                    },
+                    {
+                        "ID": "inv_item_sword_copper",
+                        "DefinitionID": "sword-copper",
+                        "Amount": 1,
+                        "Quality": 1,
+                        "Durability": 100,
+                        "EquippedSlot": null
+                    },
+                    {
+                        "ID": "inv_item_bow_wooden",
+                        "DefinitionID": "bow-wooden",
+                        "Amount": 1,
+                        "Quality": 1,
+                        "Durability": 100,
+                        "EquippedSlot": null
+                    },
+                    {
+                        "ID": "inv_item_bomb_ice",
+                        "DefinitionID": "bomb-ice",
+                        "Amount": 5,
+                        "Quality": 1,
+                        "Durability": null,
+                        "EquippedSlot": null
+                    },
+                    {
+                        "ID": "inv_item_copper_head",
+                        "DefinitionID": "copper-head",
+                        "Amount": 1,
+                        "Quality": 1,
+                        "Durability": 100,
+                        "EquippedSlot": 0
+                    },
+                    {
+                        "ID": "inv_item_copper_chestplate",
+                        "DefinitionID": "copper-chestplate",
+                        "Amount": 1,
+                        "Quality": 1,
+                        "Durability": 100,
+                        "EquippedSlot": 1
+                    },
+                    {
+                        "ID": "inv_item_copper_pant",
+                        "DefinitionID": "copper-pant",
+                        "Amount": 1,
+                        "Quality": 1,
+                        "Durability": 100,
+                        "EquippedSlot": 2
+                    },
+                    {
+                        "ID": "inv_item_copper_shoe",
+                        "DefinitionID": "copper-shoe",
+                        "Amount": 1,
+                        "Quality": 1,
+                        "Durability": 30,
+                        "EquippedSlot": 3
+                    },
+                    {
+                        "ID": "inv_item_wooden_chair",
+                        "DefinitionID": "wooden-chair",
+                        "Amount": 1,
+                        "Quality": 1,
+                        "Durability": null,
+                        "EquippedSlot": null
+                    },
+                    {
+                        "ID": "inv_item_apple",
+                        "DefinitionID": "apple",
+                        "Amount": 5,
+                        "Quality": 1,
+                        "Durability": null,
+                        "EquippedSlot": null
+                    },
+                    {
+                        "ID": "inv_item_banana",
+                        "DefinitionID": "banana",
+                        "Amount": 3,
+                        "Quality": 1,
+                        "Durability": null,
+                        "EquippedSlot": null
+                    }
+                ]
+            },
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.AppearanceInstanceDTO, Contract",
+                "SkinID": "archer",
+                "SkinColor": {
+                    "H": 0.0,
+                    "S": 0.0,
+                    "V": 1.0
+                }
+            },
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.ActionInstanceDTO, Contract"
+            },
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.EffectContainerInstanceDTO, Contract",
+                "TrackingEffects": []
+            },
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.EconomicInstanceDTO, Contract",
+                "CurrentMoney": 100
+            },
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.OwnershipInstanceDTO, Contract",
+                "UserID": "user_mock_id",
+                "PersonalRoomID": "tutorial-room"
+            },
+            {
+                "$type": "Contract.DTO.Runtime.EntityDomain.Component.QuestProgressInstanceDTO, Contract",
+                "Entries": []
+            }
+        ]
+    },
+    "roomData": {
+        "room": {
+            "id": "tutorial-room",
+            "definitionID": "tutorial-room",
+            "ownerId": null
+        },
+        "entities": [
+            {
+                "Id": "creature_fire_shroom_01",
+                "DefinitionID": "fire-shroom",
+                "Components": [
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.CollisionInstanceDTO, Contract"
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.TransformInstanceDTO, Contract",
+                        "LayerZ": 0,
+                        "Position": {
+                            "X": 5.0,
+                            "Y": 5.0
+                        },
+                        "FacingDirection": 0,
+                        "CurrentAction": 0
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.CharacteristicInstanceDTO, Contract",
+                        "Cores": [
+                            {
+                                "AttributeType": 0,
+                                "Value": 120.0
+                            },
+                            {
+                                "AttributeType": 1,
+                                "Value": 80.0
+                            },
+                            {
+                                "AttributeType": 11,
+                                "Value": 18.0
+                            },
+                            {
+                                "AttributeType": 12,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 13,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 14,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 15,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 16,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 17,
+                                "Value": 3.2
+                            },
+                            {
+                                "AttributeType": 18,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 19,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 20,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 21,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 22,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 23,
+                                "Value": 0.10
+                            },
+                            {
+                                "AttributeType": 24,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 25,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 26,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 27,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 28,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 29,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 30,
+                                "Value": 0.98
+                            },
+                            {
+                                "AttributeType": 31,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 32,
+                                "Value": 0.80
+                            },
+                            {
+                                "AttributeType": 33,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 34,
+                                "Value": 0.0
+                            }
+                        ],
+                        "Vitals": [
+                            {
+                                "AttributeType": 0,
+                                "Value": 120.0
+                            },
+                            {
+                                "AttributeType": 1,
+                                "Value": 80.0
+                            }
+                        ],
+                        "CurrentLevel": 1
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.InventoryInstanceDTO, Contract",
+                        "Items": [
+                            {
+                                "ID": "inv_item_mushroom_fire",
+                                "DefinitionID": "mushroom-fire",
+                                "Amount": 1,
+                                "Quality": 0,
+                                "Durability": null,
+                                "EquippedSlot": null
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.AppearanceInstanceDTO, Contract",
+                        "SkinID": "fire-shroom",
+                        "SkinColor": {
+                            "H": 0.0,
+                            "S": 0.0,
+                            "V": 1.0
+                        }
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.ActionInstanceDTO, Contract"
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.EffectContainerInstanceDTO, Contract",
+                        "TrackingEffects": []
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.AIInstanceDTO, Contract",
+                        "aiState": 0,
+                        "targetEntityId": null,
+                        "isAIControlled": true,
+                        "thinkCooldownRemaining": 0.0,
+                        "attackTimer": 0.0,
+                        "leashDistance": 8.0,
+                        "aggroRadius": 6.0
+                    }
+                ]
+            },
+            {
+                "Id": "creature_ice_shroom_01",
+                "DefinitionID": "ice-shroom",
+                "Components": [
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.CollisionInstanceDTO, Contract"
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.TransformInstanceDTO, Contract",
+                        "LayerZ": 0,
+                        "Position": {
+                            "X": -5.0,
+                            "Y": 5.0
+                        },
+                        "FacingDirection": 0,
+                        "CurrentAction": 0
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.CharacteristicInstanceDTO, Contract",
+                        "Cores": [
+                            {
+                                "AttributeType": 0,
+                                "Value": 120.0
+                            },
+                            {
+                                "AttributeType": 1,
+                                "Value": 80.0
+                            },
+                            {
+                                "AttributeType": 11,
+                                "Value": 18.0
+                            },
+                            {
+                                "AttributeType": 12,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 13,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 14,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 15,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 16,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 17,
+                                "Value": 3.2
+                            },
+                            {
+                                "AttributeType": 18,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 19,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 20,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 21,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 22,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 23,
+                                "Value": 0.10
+                            },
+                            {
+                                "AttributeType": 24,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 25,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 26,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 27,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 28,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 29,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 30,
+                                "Value": 0.98
+                            },
+                            {
+                                "AttributeType": 31,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 32,
+                                "Value": 0.80
+                            },
+                            {
+                                "AttributeType": 33,
+                                "Value": 0.0
+                            },
+                            {
+                                "AttributeType": 34,
+                                "Value": 0.0
+                            }
+                        ],
+                        "Vitals": [
+                            {
+                                "AttributeType": 0,
+                                "Value": 120.0
+                            },
+                            {
+                                "AttributeType": 1,
+                                "Value": 80.0
+                            }
+                        ],
+                        "CurrentLevel": 1
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.InventoryInstanceDTO, Contract",
+                        "Items": [
+                            {
+                                "ID": "inv_item_mushroom_ice",
+                                "DefinitionID": "mushroom-ice",
+                                "Amount": 1,
+                                "Quality": 0,
+                                "Durability": null,
+                                "EquippedSlot": null
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.AppearanceInstanceDTO, Contract",
+                        "SkinID": "ice-shroom",
+                        "SkinColor": {
+                            "H": 0.0,
+                            "S": 0.0,
+                            "V": 1.0
+                        }
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.ActionInstanceDTO, Contract"
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.EffectContainerInstanceDTO, Contract",
+                        "TrackingEffects": []
+                    },
+                    {
+                        "$type": "Contract.DTO.Runtime.EntityDomain.Component.AIInstanceDTO, Contract",
+                        "aiState": 0,
+                        "targetEntityId": null,
+                        "isAIControlled": true,
+                        "thinkCooldownRemaining": 0.0,
+                        "attackTimer": 0.0,
+                        "leashDistance": 9.0,
+                        "aggroRadius": 7.0
+                    }
+                ]
+            }
+        ]
+    }
+}

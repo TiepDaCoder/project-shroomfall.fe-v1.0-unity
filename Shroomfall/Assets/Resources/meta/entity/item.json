@@ -1,0 +1,34 @@
+[
+        {
+        "Id": "default_item",
+        "Type": 4,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "default_item",
+                "CollisionRole": 4,
+                "ShapeType": 1,
+                "Width": 1.0,
+                "Height": 1.0,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0.2
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "default_item",
+                "Duration": 0.35
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "default_item",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            }
+        ]
+    }
+]

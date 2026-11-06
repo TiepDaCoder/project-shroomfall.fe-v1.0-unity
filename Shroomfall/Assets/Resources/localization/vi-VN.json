@@ -1,0 +1,352 @@
+{
+  "entries": [
+    {
+      "key": "introduction-view.introduction-next-btn",
+      "value": "Tiếp tục"
+    },
+    {
+      "key": "introduction-view.introduction-description-txt",
+      "value": "Tựa game phát triển cho Đồ Án tại FPTU Ho Chi Minh"
+    },
+    {
+      "key": "customize-view.name-placeholder",
+      "value": "Tên"
+    },
+    {
+      "key": "customize-view.name-header",
+      "value": "Tên"
+    },
+    {
+      "key": "customize-view.dob-day-placeholder",
+      "value": "Ngày"
+    },
+    {
+      "key": "customize-view.dob-month-placeholder",
+      "value": "Tháng"
+    },
+    {
+      "key": "customize-view.dob-year-placeholder",
+      "value": "Năm"
+    },
+    {
+      "key": "customize-view.dob-header",
+      "value": "Sinh nhật"
+    },
+    {
+      "key": "characteristic-view.resistance-header",
+      "value": "Sức Kháng"
+    },
+    {
+      "key": "characteristic-view.light-resistance-tooltip",
+      "value": "Giảm sát thương từ các đòn tấn công hệ <sprite name=\"light-element\">Ánh Sáng<sprite name=\"light-element\">."
+    },
+    {
+      "key": "characteristic-view.dark-resistance-tooltip",
+      "value": "Giảm sát thương từ các đòn tấn công hệ <sprite name=\"dark-element\">Bóng Tối<sprite name=\"dark-element\">."
+    },
+    {
+      "key": "characteristic-view.fire-resistance-tooltip",
+      "value": "Giảm sát thương từ các đòn tấn công hệ <sprite name=\"fire-element\">Lửa<sprite name=\"fire-element\">."
+    },
+    {
+      "key": "characteristic-view.earth-resistance-tooltip",
+      "value": "Giảm sát thương từ các đòn tấn công hệ <sprite name=\"earth-element\">Đất<sprite name=\"earth-element\">."
+    },
+    {
+      "key": "characteristic-view.ice-resistance-tooltip",
+      "value": "Giảm sát thương từ các đòn tấn công hệ <sprite name=\"ice-element\">Băng<sprite name=\"ice-element\">."
+    },
+    {
+      "key": "characteristic-view.physical-resistance-tooltip",
+      "value": "Giảm sát thương từ các đòn tấn công <sprite name=\"physical-element\">vật lý<sprite name=\"physical-element\">."
+    },
+    {
+      "key": "characteristic-view.power-header",
+      "value": "Sức Mạnh"
+    },
+    {
+      "key": "characteristic-view.light-power-tooltip",
+      "value": "Tăng sát thương gây ra từ các đòn tấn công hệ <sprite name=\"light-element\">Ánh Sáng<sprite name=\"light-element\">."
+    },
+    {
+      "key": "characteristic-view.dark-power-tooltip",
+      "value": "Tăng sát thương gây ra từ các đòn tấn công hệ <sprite name=\"dark-element\">Bóng Tối<sprite name=\"dark-element\">."
+    },
+    {
+      "key": "characteristic-view.fire-power-tooltip",
+      "value": "Tăng sát thương gây ra từ các đòn tấn công hệ <sprite name=\"fire-element\">Lửa<sprite name=\"fire-element\">."
+    },
+    {
+      "key": "characteristic-view.earth-power-tooltip",
+      "value": "Tăng sát thương gây ra từ các đòn tấn công hệ <sprite name=\"earth-element\">Đất<sprite name=\"earth-element\">."
+    },
+    {
+      "key": "characteristic-view.ice-power-tooltip",
+      "value": "Tăng sát thương gây ra từ các đòn tấn công hệ <sprite name=\"ice-element\">Băng<sprite name=\"ice-element\">."
+    },
+    {
+      "key": "characteristic-view.physical-power-tooltip",
+      "value": "Tăng sát thương gây ra từ các đòn tấn công <sprite name=\"physical-element\">vật lý<sprite name=\"physical-element\">."
+    },
+    {
+      "key": "characteristic-view.penetration-header",
+      "value": "Xuyên Thấu"
+    },
+    {
+      "key": "characteristic-view.light-penetration-tooltip",
+      "value": "Bỏ qua một phần Kháng hệ <sprite name=\"light-element\">Ánh Sáng<sprite name=\"light-element\"> của mục tiêu."
+    },
+    {
+      "key": "characteristic-view.dark-penetration-tooltip",
+      "value": "Bỏ qua một phần Kháng hệ <sprite name=\"dark-element\">Bóng Tối<sprite name=\"dark-element\"> của mục tiêu."
+    },
+    {
+      "key": "characteristic-view.fire-penetration-tooltip",
+      "value": "Bỏ qua một phần Kháng hệ <sprite name=\"fire-element\">Lửa<sprite name=\"fire-element\"> của mục tiêu."
+    },
+    {
+      "key": "characteristic-view.earth-penetration-tooltip",
+      "value": "Bỏ qua một phần Kháng hệ <sprite name=\"earth-element\">Đất<sprite name=\"earth-element\"> của mục tiêu."
+    },
+    {
+      "key": "characteristic-view.ice-penetration-tooltip",
+      "value": "Bỏ qua một phần Kháng hệ <sprite name=\"ice-element\">Băng<sprite name=\"ice-element\"> của mục tiêu."
+    },
+    {
+      "key": "characteristic-view.physical-penetration-tooltip",
+      "value": "Bỏ qua một phần Kháng <sprite name=\"physical-element\">vật lý<sprite name=\"physical-element\"> của mục tiêu."
+    },
+    {
+      "key": "characteristic-view.utility-header",
+      "value": "Chức Năng"
+    },
+    {
+      "key": "characteristic-view.life-steal-tooltip",
+      "value": "Hồi máu dựa trên sát thương gây ra."
+    },
+    {
+      "key": "characteristic-view.critical-chance-tooltip",
+      "value": "Tăng tỷ lệ gây sát thương chí mạng."
+    },
+    {
+      "key": "characteristic-view.move-speed-tooltip",
+      "value": "Tăng tốc độ di chuyển."
+    },
+    {
+      "key": "characteristic-view.cooldown-reduction-tooltip",
+      "value": "Giảm thời gian hồi chiêu kỹ năng."
+    },
+    {
+      "key": "characteristic-view.block-chance-tooltip",
+      "value": "Tăng tỷ lệ chặn các đòn tấn công."
+    },
+    {
+      "key": "characteristic-view.lucky-tooltip",
+      "value": "Tăng tỷ lệ nhận được kết quả có lợi từ các yếu tố ngẫu nhiên."
+    },
+    {
+      "key": "main-menu-view.tutorial-btn",
+      "value": "Chơi Thử"
+    },
+    {
+      "key": "main-menu-view.sign-in-btn",
+      "value": "Đăng Nhập"
+    },
+    {
+      "key": "main-menu-view.sign-up-btn",
+      "value": "Đăng Ký"
+    },
+    {
+      "key": "main-menu-view.setting-btn",
+      "value": "Cài Đặt"
+    },
+    {
+      "key": "main-menu-view.quit-btn",
+      "value": "Thoát"
+    },
+    {
+      "key": "main-menu-view.instagram-tooltip",
+      "value": "Theo dõi chúng tôi trên Instagram!"
+    },
+    {
+      "key": "main-menu-view.facebook-tooltip",
+      "value": "Theo dõi chúng tôi trên Facebook!"
+    },
+    {
+      "key": "main-menu-view.tiktok-tooltip",
+      "value": "Theo dõi chúng tôi trên Tiktok!"
+    },
+    {
+      "key": "main-menu-view.discord-tooltip",
+      "value": "Tham gia Discord của chúng tôi!"
+    },
+    {
+      "key": "main-menu-view.youtube-tooltip",
+      "value": "Đăng ký Youtube của chúng tôi!"
+    },
+    {
+      "key": "sign-in-view.sign-in-header",
+      "value": "Đăng Nhập"
+    },
+    {
+      "key": "sign-in-view.email-header",
+      "value": "Email"
+    },
+    {
+      "key": "sign-in-view.email-placeholder",
+      "value": "Nhập email"
+    },
+    {
+      "key": "sign-in-view.password-header",
+      "value": "Mật khẩu"
+    },
+    {
+      "key": "sign-in-view.password-placeholder",
+      "value": "Nhập mật khẩu"
+    },
+    {
+      "key": "sign-in-view.sign-in-btn",
+      "value": "Đăng nhập"
+    },
+    {
+      "key": "sign-in-view.google-auth-tooltip",
+      "value": "Đăng nhập với Google"
+    },
+    {
+      "key": "sign-up-view.sign-up-header",
+      "value": "Đăng Ký"
+    },
+    {
+      "key": "sign-up-view.email-header",
+      "value": "Email"
+    },
+    {
+      "key": "sign-up-view.email-placeholder",
+      "value": "Nhập email"
+    },
+    {
+      "key": "sign-up-view.password-header",
+      "value": "Mật khẩu"
+    },
+    {
+      "key": "sign-up-view.password-placeholder",
+      "value": "Nhập mật khẩu"
+    },
+    {
+      "key": "sign-up-view.name-header",
+      "value": "Tên"
+    },
+    {
+      "key": "sign-up-view.name-placeholder",
+      "value": "Nhập tên"
+    },
+    {
+      "key": "sign-up-view.sign-up-btn",
+      "value": "Đăng Ký"
+    },
+    {
+      "key": "list-session-view.list-session-header",
+      "value": "Tiến trình chơi"
+    },
+    {
+      "key": "list-session-view.create-session-btn",
+      "value": "Tạo mới"
+    },
+    {
+      "key": "create-session-view.create-session-header",
+      "value": "Tạo Tiến Trình Mới"
+    },
+    {
+      "key": "setting-view.locale-header",
+      "value": "Thay đổi ngôn ngữ"
+    },
+    {
+      "key": "setting-view.sound-header",
+      "value": "Điều chỉnh âm lượng"
+    },
+    {
+      "key": "setting-view.music-sound-tooltip",
+      "value": "Âm nhạc"
+    },
+    {
+      "key": "setting-view.ambient-sound-tooltip",
+      "value": "Môi trường"
+    },
+    {
+      "key": "setting-view.ui-sound-tooltip",
+      "value": "Giao diện"
+    },
+    {
+      "key": "setting-view.music-play-tooltip",
+      "value": "Bật/Mở nhạc"
+    },
+    {
+      "key": "setting-view.screen-header",
+      "value": "Điều chỉnh màn hình"
+    },
+    {
+      "key": "setting-view.screen-size-tooltip",
+      "value": "Kích cỡ"
+    },
+    {
+      "key": "setting-view.screen-size-opt-small",
+      "value": "Nhỏ"
+    },
+    {
+      "key": "setting-view.screen-size-opt-medium",
+      "value": "Trung bình"
+    },
+    {
+      "key": "setting-view.screen-size-opt-full",
+      "value": "Toàn màn hình"
+    },
+    {
+      "key": "setting-view.screen-effect-tooltip",
+      "value": "Hiệu ứng"
+    },
+    {
+      "key": "setting-view.screen-effect-opt-leaf",
+      "value": "Lá cây"
+    },
+    {
+      "key": "setting-view.screen-effect-opt-flower",
+      "value": "Hoa"
+    },
+    {
+      "key": "setting-view.screen-effect-opt-mushroom",
+      "value": "Nấm"
+    },
+    {
+      "key": "setting-view.screen-effect-opt-none",
+      "value": "Không"
+    },
+    {
+      "key": "crafting-view.search-placeholder",
+      "value": "Tìm kiếm công thức..."
+    },
+    {
+      "key": "song.song-label",
+      "value": "Phát nhạc:"
+    },
+    {
+      "key": "song.song-1",
+      "value": "Hè <sprite name=\"summer-season\">"
+    },
+    {
+      "key": "song.song-2",
+      "value": "Xuân <sprite name=\"spring-season\">"
+    },
+    {
+      "key": "song.song-3",
+      "value": "Đông <sprite name=\"winter-season\">"
+    },
+    {
+      "key": "song.song-4",
+      "value": "Thu <sprite name=\"autumn-season\">"
+    },
+    {
+      "key": "cursor-message.not-enough-energy",
+      "value": "Không đủ năng lượng"
+    }
+  ]
+}

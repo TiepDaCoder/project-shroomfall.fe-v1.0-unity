@@ -1,0 +1,352 @@
+{
+  "entries": [
+    {
+      "key": "introduction-view.introduction-next-btn",
+      "value": "Continue"
+    },
+    {
+      "key": "introduction-view.introduction-description-txt",
+      "value": "A game made for FPTU Ho Chi Minh Capstone Project"
+    },
+    {
+      "key": "customize-view.name-placeholder",
+      "value": "Name"
+    },
+    {
+      "key": "customize-view.name-header",
+      "value": "Name"
+    },
+    {
+      "key": "customize-view.dob-day-placeholder",
+      "value": "Day"
+    },
+    {
+      "key": "customize-view.dob-month-placeholder",
+      "value": "Month"
+    },
+    {
+      "key": "customize-view.dob-year-placeholder",
+      "value": "Year"
+    },
+    {
+      "key": "customize-view.dob-header",
+      "value": "Birthdate"
+    },
+    {
+      "key": "characteristic-view.resistance-header",
+      "value": "Resistance"
+    },
+    {
+      "key": "characteristic-view.light-resistance-tooltip",
+      "value": "Reduces damage from <sprite name=\"light-element\">Light<sprite name=\"light-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.dark-resistance-tooltip",
+      "value": "Reduces damage from <sprite name=\"dark-element\">Darkness<sprite name=\"dark-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.fire-resistance-tooltip",
+      "value": "Reduces damage from <sprite name=\"fire-element\">Fire<sprite name=\"fire-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.earth-resistance-tooltip",
+      "value": "Reduces damage from <sprite name=\"earth-element\">Earth<sprite name=\"earth-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.ice-resistance-tooltip",
+      "value": "Reduces damage from <sprite name=\"ice-element\">Ice<sprite name=\"ice-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.physical-resistance-tooltip",
+      "value": "Reduces damage from <sprite name=\"physical-element\">physical<sprite name=\"physical-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.power-header",
+      "value": "Power"
+    },
+    {
+      "key": "characteristic-view.light-power-tooltip",
+      "value": "Increases damage dealt by <sprite name=\"light-element\">Light<sprite name=\"light-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.dark-power-tooltip",
+      "value": "Increases damage dealt by <sprite name=\"dark-element\">Dark<sprite name=\"dark-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.fire-power-tooltip",
+      "value": "Increases damage dealt by <sprite name=\"fire-element\">Fire<sprite name=\"fire-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.earth-power-tooltip",
+      "value": "Increases damage dealt by <sprite name=\"earth-element\">Earth<sprite name=\"earth-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.ice-power-tooltip",
+      "value": "Increases damage dealt by <sprite name=\"ice-element\">Ice<sprite name=\"ice-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.physical-power-tooltip",
+      "value": "Increases damage dealt by <sprite name=\"physical-element\">physical<sprite name=\"physical-element\"> attacks."
+    },
+    {
+      "key": "characteristic-view.penetration-header",
+      "value": "Penetration"
+    },
+    {
+      "key": "characteristic-view.light-penetration-tooltip",
+      "value": "Ignores part of the target's <sprite name=\"light-element\">Light<sprite name=\"light-element\"> Resistance."
+    },
+    {
+      "key": "characteristic-view.dark-penetration-tooltip",
+      "value": "Ignores part of the target's <sprite name=\"dark-element\">Dark<sprite name=\"dark-element\"> Resistance."
+    },
+    {
+      "key": "characteristic-view.fire-penetration-tooltip",
+      "value": "Ignores part of the target's <sprite name=\"fire-element\">Fire<sprite name=\"fire-element\"> Resistance."
+    },
+    {
+      "key": "characteristic-view.earth-penetration-tooltip",
+      "value": "Ignores part of the target's <sprite name=\"earth-element\">Earth<sprite name=\"earth-element\"> Resistance."
+    },
+    {
+      "key": "characteristic-view.ice-penetration-tooltip",
+      "value": "Ignores part of the target's <sprite name=\"ice-element\">Ice<sprite name=\"ice-element\"> Resistance."
+    },
+    {
+      "key": "characteristic-view.physical-penetration-tooltip",
+      "value": "Ignores part of the target's <sprite name=\"physical-element\">Physical<sprite name=\"physical-element\"> Resistance."
+    },
+    {
+      "key": "characteristic-view.utility-header",
+      "value": "Utility"
+    },
+    {
+      "key": "characteristic-view.life-steal-tooltip",
+      "value": "Restores health based on damage dealt."
+    },
+    {
+      "key": "characteristic-view.critical-chance-tooltip",
+      "value": "Increases the chance to deal critical damage."
+    },
+    {
+      "key": "characteristic-view.move-speed-tooltip",
+      "value": "Increases movement speed."
+    },
+    {
+      "key": "characteristic-view.cooldown-reduction-tooltip",
+      "value": "Reduces skill cooldowns."
+    },
+    {
+      "key": "characteristic-view.block-chance-tooltip",
+      "value": "Increases the chance to block incoming attacks."
+    },
+    {
+      "key": "characteristic-view.lucky-tooltip",
+      "value": "Increases the chance of favorable random outcomes."
+    },
+    {
+      "key": "main-menu-view.tutorial-btn",
+      "value": "Play Tutorial"
+    },
+    {
+      "key": "main-menu-view.sign-in-btn",
+      "value": "Sign In"
+    },
+    {
+      "key": "main-menu-view.sign-up-btn",
+      "value": "Sign Up"
+    },
+    {
+      "key": "main-menu-view.setting-btn",
+      "value": "Setting"
+    },
+    {
+      "key": "main-menu-view.quit-btn",
+      "value": "Quit"
+    },
+    {
+      "key": "main-menu-view.instagram-tooltip",
+      "value": "Follow our Instagram!"
+    },
+    {
+      "key": "main-menu-view.facebook-tooltip",
+      "value": "Follow our Facebook!"
+    },
+    {
+      "key": "main-menu-view.tiktok-tooltip",
+      "value": "Follow our Tiktok!"
+    },
+    {
+      "key": "main-menu-view.discord-tooltip",
+      "value": "Join our Discord!"
+    },
+    {
+      "key": "main-menu-view.youtube-tooltip",
+      "value": "Subscribe our Youtube!"
+    },
+    {
+      "key": "sign-in-view.sign-in-header",
+      "value": "Sign In"
+    },
+    {
+      "key": "sign-in-view.email-header",
+      "value": "Email"
+    },
+    {
+      "key": "sign-in-view.email-placeholder",
+      "value": "Enter email"
+    },
+    {
+      "key": "sign-in-view.password-header",
+      "value": "Password"
+    },
+    {
+      "key": "sign-in-view.password-placeholder",
+      "value": "Enter password"
+    },
+    {
+      "key": "sign-in-view.sign-in-btn",
+      "value": "Sign In"
+    },
+    {
+      "key": "sign-in-view.google-auth-tooltip",
+      "value": "Sign in with Google"
+    },
+    {
+      "key": "sign-up-view.sign-up-header",
+      "value": "Sign Up"
+    },
+    {
+      "key": "sign-up-view.email-header",
+      "value": "Email"
+    },
+    {
+      "key": "sign-up-view.email-placeholder",
+      "value": "Enter email"
+    },
+    {
+      "key": "sign-up-view.password-header",
+      "value": "Password"
+    },
+    {
+      "key": "sign-up-view.password-placeholder",
+      "value": "Enter password"
+    },
+    {
+      "key": "sign-up-view.name-header",
+      "value": "Name"
+    },
+    {
+      "key": "sign-up-view.name-placeholder",
+      "value": "Enter name"
+    },
+    {
+      "key": "sign-up-view.sign-up-btn",
+      "value": "Sign Up"
+    },
+    {
+      "key": "list-session-view.list-session-header",
+      "value": "Game Session"
+    },
+    {
+      "key": "list-session-view.create-session-btn",
+      "value": "Create New"
+    },
+    {
+      "key": "create-session-view.create-session-header",
+      "value": "Create Session"
+    },
+    {
+      "key": "setting-view.locale-header",
+      "value": "Languages setting"
+    },
+    {
+      "key": "setting-view.sound-header",
+      "value": "Sounds setting"
+    },
+    {
+      "key": "setting-view.music-sound-tooltip",
+      "value": "Music sound"
+    },
+    {
+      "key": "setting-view.ambient-sound-tooltip",
+      "value": "Ambient sound"
+    },
+    {
+      "key": "setting-view.ui-sound-tooltip",
+      "value": "UI sound"
+    },
+    {
+      "key": "setting-view.music-play-tooltip",
+      "value": "On/Off music"
+    },
+    {
+      "key": "setting-view.screen-header",
+      "value": "Screens setting"
+    },
+    {
+      "key": "setting-view.screen-size-tooltip",
+      "value": "Screen size"
+    },
+    {
+      "key": "setting-view.screen-size-opt-small",
+      "value": "Small"
+    },
+    {
+      "key": "setting-view.screen-size-opt-medium",
+      "value": "Medium"
+    },
+    {
+      "key": "setting-view.screen-size-opt-full",
+      "value": "Fullscreen"
+    },
+    {
+      "key": "setting-view.screen-effect-tooltip",
+      "value": "Screen effect"
+    },
+    {
+      "key": "setting-view.screen-effect-opt-leaf",
+      "value": "Leaves"
+    },
+    {
+      "key": "setting-view.screen-effect-opt-flower",
+      "value": "Flowers"
+    },
+    {
+      "key": "setting-view.screen-effect-opt-mushroom",
+      "value": "Mushrooms"
+    },
+    {
+      "key": "setting-view.screen-effect-opt-none",
+      "value": "None"
+    },
+    {
+      "key": "crafting-view.search-placeholder",
+      "value": "Search for item recipe..."
+    },
+    {
+      "key": "song.song-label",
+      "value": "Play song:"
+    },
+    {
+      "key": "song.song-1",
+      "value": "Summer <sprite name=\"summer-season\">"
+    },
+    {
+      "key": "song.song-2",
+      "value": "Spring <sprite name=\"spring-season\">"
+    },
+    {
+      "key": "song.song-3",
+      "value": "Winter <sprite name=\"winter-season\">"
+    },
+    {
+      "key": "song.song-4",
+      "value": "Autumn <sprite name=\"autumn-season\">"
+    },
+    {
+      "key": "cursor-message.not-enough-energy",
+      "value": "Not enough energy"
+    }
+  ]
+}

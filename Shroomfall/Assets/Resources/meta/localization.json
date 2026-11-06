@@ -1,0 +1,1138 @@
+[
+    {
+        "Code": "en-US",
+        "Name": "English (US)",
+        "IsDefault": true,
+        "IsEnabled": true,
+        "LocalizationEntries": [
+            {
+                "Key": "item.mushroom-dark.name",
+                "Value": "Dark Mushroom",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.mushroom-dark.description",
+                "Value": "Grows in shadows, useful for dark brews.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.mushroom-light.name",
+                "Value": "Light Mushroom",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.mushroom-light.description",
+                "Value": "Emits a soft soothing glow.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.mushroom-earth.name",
+                "Value": "Earth Mushroom",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.mushroom-earth.description",
+                "Value": "Smells like rich soil.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.mushroom-fire.name",
+                "Value": "Fire Mushroom",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.mushroom-fire.description",
+                "Value": "Warm to the touch.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.mushroom-ice.name",
+                "Value": "Ice Mushroom",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.mushroom-ice.description",
+                "Value": "Cold as winter frost.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-coal.name",
+                "Value": "Coal Ore",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-coal.description",
+                "Value": "Used for smelting ores.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-copper.name",
+                "Value": "Copper Ore",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-copper.description",
+                "Value": "Ready to be smelted into a bar.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-iron.name",
+                "Value": "Iron Ore",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-iron.description",
+                "Value": "A heavy iron mineral.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-gold.name",
+                "Value": "Gold Ore",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-gold.description",
+                "Value": "Shimmers with wealth.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-crystal.name",
+                "Value": "Crystal Ore",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-crystal.description",
+                "Value": "Pulses with arcane energy.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-diamond.name",
+                "Value": "Diamond Ore",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.ore-diamond.description",
+                "Value": "Incredibly hard gemstone.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bar-copper.name",
+                "Value": "Copper Bar",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bar-copper.description",
+                "Value": "Used for basic crafting.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bar-iron.name",
+                "Value": "Iron Bar",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bar-iron.description",
+                "Value": "Sturdy metal for weapons and armor.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bar-gold.name",
+                "Value": "Gold Bar",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bar-gold.description",
+                "Value": "Valuable and shiny.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.pure-crystal.name",
+                "Value": "Pure Crystal",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.pure-crystal.description",
+                "Value": "Flawlessly clear and resonant.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.pure-diamond.name",
+                "Value": "Pure Diamond",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.pure-diamond.description",
+                "Value": "Ultimate crafting material.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.wood.name",
+                "Value": "Wood",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.wood.description",
+                "Value": "Basic construction material.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.stone.name",
+                "Value": "Stone",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.stone.description",
+                "Value": "Solid and heavy.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.potion-health.name",
+                "Value": "Health Potion",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.potion-health.description",
+                "Value": "Heals wounds instantly.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.potion-energy.name",
+                "Value": "Energy Potion",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.potion-energy.description",
+                "Value": "Boosts stamina and focus.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.apple.name",
+                "Value": "Apple",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.apple.description",
+                "Value": "Sweet and crisp.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.raw-chicken.name",
+                "Value": "Raw Chicken",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.raw-chicken.description",
+                "Value": "Needs cooking before eating.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.cooked-chicken.name",
+                "Value": "Cooked Chicken",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.cooked-chicken.description",
+                "Value": "Restores good amount of health.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.banana.name",
+                "Value": "Banana",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.banana.description",
+                "Value": "Rich in potassium.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-wooden.name",
+                "Value": "Wooden Sword",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-wooden.description",
+                "Value": "Not very durable.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-copper.name",
+                "Value": "Copper Sword",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-copper.description",
+                "Value": "Decent starting weapon.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-iron.name",
+                "Value": "Iron Sword",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-iron.description",
+                "Value": "Standard adventurer sword.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-gold.name",
+                "Value": "Gold Sword",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-gold.description",
+                "Value": "Flashy and sharp.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-crystal.name",
+                "Value": "Crystal Sword",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-crystal.description",
+                "Value": "Infused with magic.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-diamond.name",
+                "Value": "Diamond Sword",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.sword-diamond.description",
+                "Value": "Unmatched cutting power.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bow-wooden.name",
+                "Value": "Wooden Bow",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bow-wooden.description",
+                "Value": "Shoots arrows accurately.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bomb-ice.name",
+                "Value": "Ice Bomb",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.bomb-ice.description",
+                "Value": "Chills enemies on impact.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.dynamite.name",
+                "Value": "Dynamite",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.dynamite.description",
+                "Value": "Deals massive explosive damage.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.copper-head.name",
+                "Value": "Copper Helmet",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.copper-head.description",
+                "Value": "Basic head protection.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.copper-chestplate.name",
+                "Value": "Copper Chestplate",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.copper-chestplate.description",
+                "Value": "Protects torso.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.copper-pant.name",
+                "Value": "Copper Leggings",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.copper-pant.description",
+                "Value": "Protects legs.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.copper-shoe.name",
+                "Value": "Copper Boots",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.copper-shoe.description",
+                "Value": "Protects feet.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.iron-head.name",
+                "Value": "Iron Helmet",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.iron-head.description",
+                "Value": "Sturdy head protection.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.iron-chestplate.name",
+                "Value": "Iron Chestplate",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.iron-chestplate.description",
+                "Value": "Reliable torso protection.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.iron-pant.name",
+                "Value": "Iron Leggings",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.iron-pant.description",
+                "Value": "Reliable leg protection.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.iron-shoe.name",
+                "Value": "Iron Boots",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.iron-shoe.description",
+                "Value": "Sturdy boots.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.gold-head.name",
+                "Value": "Gold Helmet",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.gold-head.description",
+                "Value": "Ornate golden helmet.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.gold-chestplate.name",
+                "Value": "Gold Chestplate",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.gold-chestplate.description",
+                "Value": "Ornate golden chestplate.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.gold-pant.name",
+                "Value": "Gold Leggings",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.gold-pant.description",
+                "Value": "Ornate golden leggings.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.gold-shoe.name",
+                "Value": "Gold Boots",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.gold-shoe.description",
+                "Value": "Ornate golden boots.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.crystal-head.name",
+                "Value": "Crystal Helmet",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.crystal-head.description",
+                "Value": "Magical crystal crown.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.crystal-chestplate.name",
+                "Value": "Crystal Chestplate",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.crystal-chestplate.description",
+                "Value": "Magical crystal torso protection.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.crystal-pant.name",
+                "Value": "Crystal Leggings",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.crystal-pant.description",
+                "Value": "Magical crystal leg protection.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.crystal-shoe.name",
+                "Value": "Crystal Boots",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.crystal-shoe.description",
+                "Value": "Magical crystal boots.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.diamond-head.name",
+                "Value": "Diamond Helmet",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.diamond-head.description",
+                "Value": "Impenetrable diamond helmet.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.diamond-chestplate.name",
+                "Value": "Diamond Chestplate",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.diamond-chestplate.description",
+                "Value": "Impenetrable diamond chestplate.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.diamond-pant.name",
+                "Value": "Diamond Leggings",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.diamond-pant.description",
+                "Value": "Impenetrable diamond leggings.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.diamond-shoe.name",
+                "Value": "Diamond Boots",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.diamond-shoe.description",
+                "Value": "Impenetrable diamond boots.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.wooden-chair.name",
+                "Value": "Wooden Chair",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.wooden-chair.description",
+                "Value": "A simple comfortable wooden chair.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.wooden-table.name",
+                "Value": "Wooden Table",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.wooden-table.description",
+                "Value": "A sturdy wooden dining table.",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.stone-furnace.name",
+                "Value": "Stone Furnace",
+                "LocaleCode": "en-US"
+            },
+            {
+                "Key": "item.stone-furnace.description",
+                "Value": "Used for smelting ores into bars.",
+                "LocaleCode": "en-US"
+            }
+        ]
+    },
+    {
+        "Code": "vi-VN",
+        "Name": "Tiếng Việt",
+        "IsDefault": false,
+        "IsEnabled": true,
+        "LocalizationEntries": [
+            {
+                "Key": "item.mushroom-dark.name",
+                "Value": "Nấm Bóng Tối",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.mushroom-dark.description",
+                "Value": "Mọc trong bóng tối, dùng để chế thuốc bóng tối.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.mushroom-light.name",
+                "Value": "Nấm Ánh Sáng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.mushroom-light.description",
+                "Value": "Phát ra ánh sáng dịu nhẹ.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.mushroom-earth.name",
+                "Value": "Nấm Đất",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.mushroom-earth.description",
+                "Value": "Có mùi đất xốp mỡ màu.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.mushroom-fire.name",
+                "Value": "Nấm Lửa",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.mushroom-fire.description",
+                "Value": "Tỏa ra sức nóng khi chạm vào.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.mushroom-ice.name",
+                "Value": "Nấm Băng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.mushroom-ice.description",
+                "Value": "Lạnh như băng giá mùa đông.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-coal.name",
+                "Value": "Quặng Than Đá",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-coal.description",
+                "Value": "Nhiên liệu dùng để nấu quặng.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-copper.name",
+                "Value": "Quặng Đồng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-copper.description",
+                "Value": "Sẵn sàng để nung thành thỏi đồng.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-iron.name",
+                "Value": "Quặng Sắt",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-iron.description",
+                "Value": "Quặng kim loại nặng thô.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-gold.name",
+                "Value": "Quặng Vàng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-gold.description",
+                "Value": "Lấp lánh sắc vàng quý giá.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-crystal.name",
+                "Value": "Quặng Pha Lê",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-crystal.description",
+                "Value": "Tỏa ra năng lượng ma thuật.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-diamond.name",
+                "Value": "Quặng Kim Cương",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.ore-diamond.description",
+                "Value": "Loại đá quý vô cùng cứng.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bar-copper.name",
+                "Value": "Thỏi Đồng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bar-copper.description",
+                "Value": "Dùng để chế tạo đồ cơ bản.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bar-iron.name",
+                "Value": "Thỏi Sắt",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bar-iron.description",
+                "Value": "Kim loại chắc chắn cho vũ khí và giáp.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bar-gold.name",
+                "Value": "Thỏi Vàng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bar-gold.description",
+                "Value": "Sáng bóng và đắt giá.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.pure-crystal.name",
+                "Value": "Pha Lê Tinh Khiết",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.pure-crystal.description",
+                "Value": "Pha lê phép thuật đã qua tinh chế.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.pure-diamond.name",
+                "Value": "Kim Cương Tinh Khiết",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.pure-diamond.description",
+                "Value": "Nguyên liệu chế tạo cấp cao nhất.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.wood.name",
+                "Value": "Gỗ",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.wood.description",
+                "Value": "Nguyên liệu xây dựng cơ bản.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.stone.name",
+                "Value": "Đá",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.stone.description",
+                "Value": "Khối đá thô cứng cáp.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.potion-health.name",
+                "Value": "Thuốc Hồi Máu",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.potion-health.description",
+                "Value": "Chữa lành vết thương ngay lập tức.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.potion-energy.name",
+                "Value": "Thuốc Hồi Năng Lượng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.potion-energy.description",
+                "Value": "Tăng cường thể lực và sự tập trung.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.apple.name",
+                "Value": "Quả Táo",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.apple.description",
+                "Value": "Trái cây tươi ngọt và giòn.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.raw-chicken.name",
+                "Value": "Thịt Gà Sống",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.raw-chicken.description",
+                "Value": "Cần chế biến trước khi ăn.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.cooked-chicken.name",
+                "Value": "Thịt Gà Nướng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.cooked-chicken.description",
+                "Value": "Thịt gà nướng thơm ngon hồi nhiều máu.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.banana.name",
+                "Value": "Quả Chuối",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.banana.description",
+                "Value": "Trái chuối chín vàng giàu dinh dưỡng.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-wooden.name",
+                "Value": "Kiếm Gỗ",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-wooden.description",
+                "Value": "Vũ khí tập luyện đơn giản.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-copper.name",
+                "Value": "Kiếm Đồng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-copper.description",
+                "Value": "Vũ khí khởi đầu khá tốt.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-iron.name",
+                "Value": "Kiếm Sắt",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-iron.description",
+                "Value": "Kiếm tiêu chuẩn cho nhà phiêu lưu.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-gold.name",
+                "Value": "Kiếm Vàng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-gold.description",
+                "Value": "Sắc bén và nổi bật.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-crystal.name",
+                "Value": "Kiếm Pha Lê",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-crystal.description",
+                "Value": "Được chứa đựng năng lượng phép thuật.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-diamond.name",
+                "Value": "Kiếm Kim Cương",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.sword-diamond.description",
+                "Value": "Sức mạnh cắt gọt vô song.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bow-wooden.name",
+                "Value": "Cung Gỗ",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bow-wooden.description",
+                "Value": "Cung tầm xa cơ bản.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bomb-ice.name",
+                "Value": "Bom Băng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.bomb-ice.description",
+                "Value": "Làm lạnh kẻ thù khi va chạm.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.dynamite.name",
+                "Value": "Thuốc Nổ Dynamite",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.dynamite.description",
+                "Value": "Gây sát thương nổ diện rộng cực lớn.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.copper-head.name",
+                "Value": "Mũ Đồng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.copper-head.description",
+                "Value": "Bảo vệ đầu cơ bản.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.copper-chestplate.name",
+                "Value": "Giáp Ngực Đồng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.copper-chestplate.description",
+                "Value": "Bảo vệ phần thân.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.copper-pant.name",
+                "Value": "Quần Giáp Đồng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.copper-pant.description",
+                "Value": "Bảo vệ phần chân.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.copper-shoe.name",
+                "Value": "Giày Đồng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.copper-shoe.description",
+                "Value": "Bảo vệ bàn chân.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.iron-head.name",
+                "Value": "Mũ Sắt",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.iron-head.description",
+                "Value": "Mũ bảo vệ chắc chắn.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.iron-chestplate.name",
+                "Value": "Giáp Ngực Sắt",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.iron-chestplate.description",
+                "Value": "Giáp ngực kiên cố.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.iron-pant.name",
+                "Value": "Quần Giáp Sắt",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.iron-pant.description",
+                "Value": "Quần giáp kiên cố.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.iron-shoe.name",
+                "Value": "Giày Sắt",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.iron-shoe.description",
+                "Value": "Giày sắt bền bỉ.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.gold-head.name",
+                "Value": "Mũ Vàng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.gold-head.description",
+                "Value": "Mũ vàng trạm khắc tinh xảo.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.gold-chestplate.name",
+                "Value": "Giáp Ngực Vàng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.gold-chestplate.description",
+                "Value": "Giáp ngực vàng sang trọng.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.gold-pant.name",
+                "Value": "Quần Giáp Vàng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.gold-pant.description",
+                "Value": "Quần giáp vàng sang trọng.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.gold-shoe.name",
+                "Value": "Giày Vàng",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.gold-shoe.description",
+                "Value": "Giày vàng trạm khắc tinh xảo.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.crystal-head.name",
+                "Value": "Mũ Pha Lê",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.crystal-head.description",
+                "Value": "Vương miện pha lê ma thuật.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.crystal-chestplate.name",
+                "Value": "Giáp Ngực Pha Lê",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.crystal-chestplate.description",
+                "Value": "Giáp ngực pha lê ma thuật.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.crystal-pant.name",
+                "Value": "Quần Giáp Pha Lê",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.crystal-pant.description",
+                "Value": "Quần giáp pha lê ma thuật.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.crystal-shoe.name",
+                "Value": "Giày Pha Lê",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.crystal-shoe.description",
+                "Value": "Giày pha lê ma thuật.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.diamond-head.name",
+                "Value": "Mũ Kim Cương",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.diamond-head.description",
+                "Value": "Mũ kim cương bất xâm nhập.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.diamond-chestplate.name",
+                "Value": "Giáp Ngực Kim Cương",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.diamond-chestplate.description",
+                "Value": "Giáp ngực kim cương bất xâm nhập.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.diamond-pant.name",
+                "Value": "Quần Giáp Kim Cương",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.diamond-pant.description",
+                "Value": "Quần giáp kim cương bất xâm nhập.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.diamond-shoe.name",
+                "Value": "Giày Kim Cương",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.diamond-shoe.description",
+                "Value": "Giày kim cương bất xâm nhập.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.wooden-chair.name",
+                "Value": "Ghế Gỗ",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.wooden-chair.description",
+                "Value": "Một chiếc ghế gỗ đơn giản.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.wooden-table.name",
+                "Value": "Bàn Gỗ",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.wooden-table.description",
+                "Value": "Một chiếc bàn ăn bằng gỗ chắc chắn.",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.stone-furnace.name",
+                "Value": "Lò Nung Đá",
+                "LocaleCode": "vi-VN"
+            },
+            {
+                "Key": "item.stone-furnace.description",
+                "Value": "Dùng để nung quặng thành thỏi kim loại.",
+                "LocaleCode": "vi-VN"
+            }
+        ]
+    }
+]

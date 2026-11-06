@@ -1,0 +1,83 @@
+[
+  {
+    "Id": "wooden-chair",
+    "Type": 1,
+    "Components": [
+      {
+        "ComponentType": "CollisionDefinitionDTO",
+        "EntityDefinitionID": "wooden-chair",
+        "CollisionRole": 5,
+        "ShapeType": 1,
+        "Width": 1,
+        "Height": 1,
+        "Radius": 0,
+        "IsBlocking": true,
+        "OffsetX": 0,
+        "OffsetY": 0
+      },
+      {
+        "ComponentType": "AppearanceDefinitionDTO",
+        "EntityDefinitionID": "wooden-chair",
+        "SkinColor": {
+          "H": 0,
+          "S": 0,
+          "V": 1
+        }
+      }
+    ]
+  },
+  {
+    "Id": "wooden-table",
+    "Type": 1,
+    "Components": [
+      {
+        "ComponentType": "CollisionDefinitionDTO",
+        "EntityDefinitionID": "wooden-table",
+        "CollisionRole": 5,
+        "ShapeType": 1,
+        "Width": 1,
+        "Height": 1,
+        "Radius": 0,
+        "IsBlocking": true,
+        "OffsetX": 0,
+        "OffsetY": 0
+      },
+      {
+        "ComponentType": "AppearanceDefinitionDTO",
+        "EntityDefinitionID": "wooden-table",
+        "SkinColor": {
+          "H": 0,
+          "S": 0,
+          "V": 1
+        }
+      }
+    ]
+  },
+  {
+    "Id": "stone-furnace",
+    "Type": 1,
+    "Components": [
+      {
+        "ComponentType": "CollisionDefinitionDTO",
+        "EntityDefinitionID": "stone-furnace",
+        "CollisionRole": 5,
+        "ShapeType": 1,
+        "Width": 1,
+        "Height": 1,
+        "Radius": 0,
+        "IsBlocking": true,
+        "OffsetX": 0,
+        "OffsetY": 0
+      },
+      {
+        "ComponentType": "AppearanceDefinitionDTO",
+        "EntityDefinitionID": "stone-furnace",
+        "SkinColor": {
+          "H": 0,
+          "S": 0,
+          "V": 1
+        }
+      }
+    ]
+  }
+]

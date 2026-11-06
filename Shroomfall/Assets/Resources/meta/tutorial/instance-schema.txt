@@ -1,0 +1,558 @@
+using Contract.DTO.Abstraction;
+using System.Collections.Generic;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain")]
+#endif
+    public class EntityInstanceDTO
+    {
+        public string Id { get; set; } = string.Empty;
+        public string DefinitionID { get; set; } = string.Empty;
+        public List<ComponentInstanceDTO> Components { get; set; } = new List<ComponentInstanceDTO>();
+    }
+}
+
+using Contract.DTO.Abstraction;
+using Contract.DTO.Runtime.MetaDomain;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class WorldItemPayloadInstanceDTO : ComponentInstanceDTO
+    {
+        public ItemInstanceDTO Payload { get; set; } = new ItemInstanceDTO();
+    }
+}
+
+using Contract.DTO.Abstraction;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class TriggeredEffectInstanceDTO : ComponentInstanceDTO
+    {
+
+    }
+}
+
+using Contract.Common;
+using Contract.DTO.Abstraction;
+using Contract.Enum.EntityDomain;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class TransformInstanceDTO : ComponentInstanceDTO
+    {
+        public int LayerZ { get; set; }
+        public Vector2 Position { get; set; } = new Vector2();
+        public EntityDirection FacingDirection { get; set; }
+        public EntityAction CurrentAction { get; set; }
+    }
+}
+
+using Contract.DTO.Abstraction;
+using Contract.Enum.EntityDomain;
+using System;
+using System.Collections.Generic;
+
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class QuestProgressInstanceDTO : ComponentInstanceDTO
+    {
+        public List<QuestProgressEntryDTO> Entries { get; set; } = new List<QuestProgressEntryDTO>();
+
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class QuestProgressEntryDTO
+    {
+        public string QuestInstanceId { get; set; } = string.Empty;
+        public DateTime StartedAt { get; set; }
+        public QuestProgressStatus Status { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
+        public IdentificationProgressDTO? IdentificationProgress { get; set; }
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class IdentificationProgressDTO
+    {
+        public int CorrectDefeatCount { get; set; }
+        public int RequiredDefeatCount { get; set; }
+        public float Percentage => RequiredDefeatCount <= 0 ? 0f : Math.Min(100f, (float)CorrectDefeatCount / RequiredDefeatCount * 100f);
+    }
+}
+
+using Contract.Common;
+using Contract.DTO.Abstraction;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class ProjectileInstanceDTO : ComponentInstanceDTO
+    {
+        public float Velocity { get; set; }
+        public Vector2 Direction { get; set; } = new Vector2();
+    }
+}
+
+using Contract.DTO.Abstraction;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class OwnershipInstanceDTO : ComponentInstanceDTO
+    {
+        public string UserID { get; set; } = string.Empty;
+        public string PersonalRoomID { get; set; } = string.Empty;
+    }
+}
+
+using Contract.DTO.Abstraction;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class LifetimeInstanceDTO : ComponentInstanceDTO
+    {
+
+    }
+}
+
+using Contract.DTO.Abstraction;
+using Contract.DTO.Runtime.MetaDomain;
+using System.Collections.Generic;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class InventoryInstanceDTO : ComponentInstanceDTO
+    {
+        public List<ItemInstanceDTO> Items { get; set; } = new List<ItemInstanceDTO>();
+    }
+}
+
+using Contract.DTO.Abstraction;
+using Contract.DTO.Runtime.MetaDomain;
+using System.Collections.Generic;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class EffectContainerInstanceDTO : ComponentInstanceDTO
+    {
+        public List<EffectInstanceDTO> TrackingEffects { get; set; } = new List<EffectInstanceDTO>();
+    }
+}
+
+using Contract.DTO.Abstraction;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class EconomicInstanceDTO : ComponentInstanceDTO
+    {
+        public int CurrentMoney { get; set; }
+    }
+}
+
+using Contract.DTO.Abstraction;
+using Contract.Enum.MetaDomain.Effect;
+using System.Collections.Generic;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class CharacteristicInstanceDTO : ComponentInstanceDTO
+    {
+        public List<AttributeValueInstanceDTO> Cores { get; set; } = new List<AttributeValueInstanceDTO>();
+        public List<AttributeValueInstanceDTO> Vitals { get; set; } = new List<AttributeValueInstanceDTO>();
+        public int CurrentLevel { get; set; }
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class AttributeValueInstanceDTO
+    {
+        public AttributeType AttributeType { get; set; }
+        public float Value { get; set; }
+    }
+}
+
+using Contract.DTO.Abstraction;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class CollisionInstanceDTO : ComponentInstanceDTO
+    {
+
+    }
+}
+
+using Contract.Common;
+using Contract.DTO.Abstraction;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class AppearanceInstanceDTO : ComponentInstanceDTO
+    {
+        public string SkinID { get; set; } = string.Empty;
+        public HSV SkinColor { get; set; } = new HSV();
+    }
+}
+
+using Contract.DTO.Abstraction;
+using Contract.Enum.EntityDomain;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class AIInstanceDTO : ComponentInstanceDTO
+    {
+        public AIState AIState { get; set; } = AIState.Idle;
+        public string? TargetEntityId { get; set; }
+        public bool IsAIControlled { get; set; } = true;
+        public float ThinkCooldownRemaining { get; set; }
+        public float AttackTimer { get; set; }
+        public float LeashDistance { get; set; } = 10.0f;
+        public float AggroRadius { get; set; } = 5.0f;
+    }
+}
+
+using Contract.DTO.Abstraction;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain.Component
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
+    public class ActionInstanceDTO : ComponentInstanceDTO
+    {
+
+    }
+}
+
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.MetaDomain
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class EffectInstanceDTO
+    {
+        public string DefinitionID { get; set; } = string.Empty;
+        public float? RemainingTime { get; set; }
+        public float? IntervalDuration { get; set; }
+        public float IntervalAccumulator { get; set; }
+    }
+}
+
+using Contract.Enum.MetaDomain.Item;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.MetaDomain
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class ItemInstanceDTO
+    {
+        public string ID { get; set; } = string.Empty;
+        public string DefinitionID { get; set; } = string.Empty;
+        public int Amount { get; set; }
+        public ItemQuality Quality { get; set; }
+        public int? Durability { get; set; }
+        public EquipmentSlot? EquippedSlot { get; set; }
+    }
+}
+
+using Contract.Enum.MetaDomain.Quest;
+using System;
+using System.Collections.Generic;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.MetaDomain
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class QuestInstanceDTO
+    {
+#if NET9_0
+        [TsOptional]
+#endif
+        public string? Id { get; set; } = string.Empty;
+        public QuestType Type { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime ExpiredAt { get; set; }
+        public QuestRewardConfig QuestRewardConfig { get; set; } = new QuestRewardConfig();
+#if NET9_0
+        [TsOptional]
+#endif
+        public IdentificationQuestConfig? IdentificationConfig { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
+        public CategorizingQuestConfig? CategorizingConfig { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
+        public ShootingQuestConfig? ShootingConfig { get; set; }
+    }
+
+    #region Identification Config
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class IdentificationQuestConfig
+    {
+        public LocaleQuestDTO Description { get; set; } = new LocaleQuestDTO();
+        public string TargetMushroomDefinitionId { get; set; } = string.Empty;
+        public int RequiredDefeatCount { get; set; }
+    }
+    #endregion
+
+    #region Categorizing Config
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class CategorizingQuestConfig
+    {
+        public LocaleQuestDTO Description { get; set; } = new LocaleQuestDTO();
+        public List<CategorizingCategoryConfigDTO> Categories { get; set; } = new List<CategorizingCategoryConfigDTO>();
+        public List<CategorizingItemConfigDTO> Items { get; set; } = new List<CategorizingItemConfigDTO>();
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class CategorizingCategoryConfigDTO
+    {
+        public string Id { get; set; } = string.Empty;
+        public LocaleQuestDTO CategoryName { get; set; } = new LocaleQuestDTO();
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class CategorizingItemConfigDTO
+    {
+        public string Id { get; set; } = string.Empty;
+        public string MushroomDefinitionId { get; set; } = string.Empty;
+        public string CorrectCategoryId { get; set; } = string.Empty;
+    }
+    #endregion
+
+    #region Shooting Config
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class ShootingQuestConfig
+    {
+        public LocaleQuestDTO Description { get; set; } = new LocaleQuestDTO();
+        public List<ShootingMushroomConfigDTO> Mushrooms { get; set; } = new List<ShootingMushroomConfigDTO>();
+        public List<ShootingQuestionConfigDTO> Questions { get; set; } = new List<ShootingQuestionConfigDTO>();
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class ShootingMushroomConfigDTO
+    {
+        public string MushroomDefinitionId { get; set; } = string.Empty;
+        public int SpawnCount { get; set; }
+        public float MovementSpeed { get; set; }
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class ShootingQuestionConfigDTO
+    {
+        public string Id { get; set; } = string.Empty;
+        public LocaleQuestDTO Question { get; set; } = new LocaleQuestDTO();
+        public string CorrectMushroomDefinitionId { get; set; } = string.Empty;
+        public int TimeLimitSeconds { get; set; }
+    }
+    #endregion
+
+    #region Reward Config
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class QuestRewardConfig
+    {
+        public int CurrencyAmount { get; set; }
+        public List<GachaRewardEntryDTO> Entries { get; set; } = new List<GachaRewardEntryDTO>();
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class GachaRewardEntryDTO
+    {
+        public string Id { get; set; } = string.Empty;
+        public string ItemDefinitionId { get; set; } = string.Empty;
+        public int Amount { get; set; } = 1;
+        public float Weight { get; set; }
+    }
+    #endregion
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class LocaleQuestDTO
+    {
+        public List<LocaleEntryDTO> Entries { get; set; } = new List<LocaleEntryDTO>();
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/meta-domain")]
+#endif
+    public class LocaleEntryDTO
+    {
+        public string Key { get; set; } = string.Empty;
+
+        public string Value { get; set; } = string.Empty;
+    }
+}
+
+using Contract.DTO.Runtime.EntityDomain;
+using System.Collections.Generic;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.WorldDomain
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/world-domain")]
+#endif
+    public class RoomInstanceDTO
+    {
+        public RoomSpatialDTO Room { get; set; } = new RoomSpatialDTO();
+        public List<EntityInstanceDTO> Entities { get; set; } = new List<EntityInstanceDTO>();
+    }
+}
+
+using Contract.DTO.Abstraction;
+using System.Collections.Generic;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
+
+namespace Contract.DTO.Runtime.EntityDomain
+{
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain")]
+#endif
+    public class EntityInstanceDTO
+    {
+        public string Id { get; set; } = string.Empty;
+        public string DefinitionID { get; set; } = string.Empty;
+        public List<ComponentInstanceDTO> Components { get; set; } = new List<ComponentInstanceDTO>();
+    }
+}
+
+public class SaveGameDTO
+{
+    public EntityInstanceDTO PlayerData { get; set; } = new EntityInstanceDTO();
+
+    public RoomInstanceDTO RoomData { get; set; } = new RoomInstanceDTO();
+}

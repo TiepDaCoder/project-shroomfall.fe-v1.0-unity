@@ -1,0 +1,42 @@
+abcdefghijklmn
+opqrstuvwxyzAB
+CDEFGHIJKLMNOP
+QRSTUVWXYZđĐàá
+ảãạăằắẳẵặâầấẩẫ
+ậèéẻẽẹêềếểễệìí
+ỉĩịòóỏõọôồốổỗộ
+ơờớởỡợùúủũụưừứ
+ửữựỳýỷỹỵÀÁẢÃẠĂ
+ẰẮẲẴẶÂẦẤẨẪẬÈÉẺ
+ẼẸÊỀẾỂỄỆÌÍỈĨỊÒ
+ÓỎÕỌÔỒỐỔỖỘƠỜỚỞ
+ỠỢÙÚỦŨỤƯỪỨỬỮỰỲ
+ÝỶỸỴ!@#$%^&*()
+-_=+~`;:'"[]{}
+|\><,./?012345
+6789
+
+
+setup
+
+Input:
+tile width: 11
+tile height: 31
+offset x: 1
+offset y: 1
+seperation x: 1
+seperation y: 1
+baseline x: 0
+baseline (?): 9
+
+Ouput:
+em size: 1024
+line gap: ... (384)
+ascent: 896
+descent: -2304
+pixel size: 128
+Font type: TTF
+
+yal.com
+
+

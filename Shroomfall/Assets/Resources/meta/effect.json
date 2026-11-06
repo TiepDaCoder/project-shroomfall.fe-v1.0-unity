@@ -1,0 +1,338 @@
+[
+  {
+    "Id": "potion-health-effect",
+    "Type": 0,
+    "AttributeType": 4,
+    "Value": 50.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "potion-energy-effect",
+    "Type": 0,
+    "AttributeType": 2,
+    "Value": 50.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "apple-effect",
+    "Type": 0,
+    "AttributeType": 4,
+    "Value": 10.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "raw-chicken-effect",
+    "Type": 0,
+    "AttributeType": 9,
+    "Value": 5.0,
+    "Duration": 5.0,
+    "Interval": 1.0
+  },
+  {
+    "Id": "cooked-chicken-effect",
+    "Type": 0,
+    "AttributeType": 2,
+    "Value": 30.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "banana-effect",
+    "Type": 0,
+    "AttributeType": 4,
+    "Value": 15.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "sword-wooden-effect",
+    "Type": 0,
+    "AttributeType": 5,
+    "Value": 10.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "sword-copper-effect",
+    "Type": 0,
+    "AttributeType": 5,
+    "Value": 15.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "sword-iron-effect",
+    "Type": 0,
+    "AttributeType": 5,
+    "Value": 25.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "sword-gold-effect",
+    "Type": 0,
+    "AttributeType": 5,
+    "Value": 35.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "sword-crystal-effect",
+    "Type": 0,
+    "AttributeType": 5,
+    "Value": 50.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "sword-diamond-effect",
+    "Type": 0,
+    "AttributeType": 5,
+    "Value": 75.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "bow-wooden-effect",
+    "Type": 0,
+    "AttributeType": 5,
+    "Value": 16.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "bomb-ice-effect",
+    "Type": 0,
+    "AttributeType": 7,
+    "Value": 8.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "bomb-ice-explosion-effect",
+    "Type": 0,
+    "AttributeType": 7,
+    "Value": 22.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "dynamite-effect",
+    "Type": 0,
+    "AttributeType": 5,
+    "Value": 10.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "dynamite-explosion-effect",
+    "Type": 0,
+    "AttributeType": 6,
+    "Value": 35.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "copper-head-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.05,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "copper-chestplate-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.10,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "copper-pant-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.08,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "copper-shoe-effect",
+    "Type": 0,
+    "AttributeType": 17,
+    "Value": 1.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "iron-head-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.10,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "iron-chestplate-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.20,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "iron-pant-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.15,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "iron-shoe-effect",
+    "Type": 0,
+    "AttributeType": 17,
+    "Value": 2.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "gold-head-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.15,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "gold-chestplate-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.30,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "gold-pant-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.22,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "gold-shoe-effect",
+    "Type": 0,
+    "AttributeType": 17,
+    "Value": 3.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "crystal-head-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.25,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "crystal-chestplate-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.45,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "crystal-pant-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.35,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "crystal-shoe-effect",
+    "Type": 0,
+    "AttributeType": 17,
+    "Value": 4.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "diamond-head-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.40,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "diamond-chestplate-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.70,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "diamond-pant-effect",
+    "Type": 0,
+    "AttributeType": 24,
+    "Value": 0.55,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "diamond-shoe-effect",
+    "Type": 0,
+    "AttributeType": 17,
+    "Value": 5.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "light-shroom-effect",
+    "Type": 0,
+    "AttributeType": 10,
+    "Value": 15.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "dark-shroom-effect",
+    "Type": 0,
+    "AttributeType": 9,
+    "Value": 15.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "earth-shroom-effect",
+    "Type": 0,
+    "AttributeType": 8,
+    "Value": 18.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "fire-shroom-effect",
+    "Type": 0,
+    "AttributeType": 6,
+    "Value": 20.0,
+    "Duration": null,
+    "Interval": null
+  },
+  {
+    "Id": "ice-shroom-effect",
+    "Type": 0,
+    "AttributeType": 7,
+    "Value": 18.0,
+    "Duration": null,
+    "Interval": null
+  }
+]

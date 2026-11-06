@@ -1,0 +1,2173 @@
+[
+  {
+    "Id": "mushroom-dark",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.mushroom-dark.name",
+        "DescriptionKey": "item.mushroom-dark.description"
+      },
+      "IconID": "mushroom-dark"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 5
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "mushroom-light",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.mushroom-light.name",
+        "DescriptionKey": "item.mushroom-light.description"
+      },
+      "IconID": "mushroom-light"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 5
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "mushroom-earth",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.mushroom-earth.name",
+        "DescriptionKey": "item.mushroom-earth.description"
+      },
+      "IconID": "mushroom-earth"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 5
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "mushroom-fire",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.mushroom-fire.name",
+        "DescriptionKey": "item.mushroom-fire.description"
+      },
+      "IconID": "mushroom-fire"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 5
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "mushroom-ice",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.mushroom-ice.name",
+        "DescriptionKey": "item.mushroom-ice.description"
+      },
+      "IconID": "mushroom-ice"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 5
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "ore-coal",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.ore-coal.name",
+        "DescriptionKey": "item.ore-coal.description"
+      },
+      "IconID": "ore-coal"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 2
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "ore-copper",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.ore-copper.name",
+        "DescriptionKey": "item.ore-copper.description"
+      },
+      "IconID": "ore-copper"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 4
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "ore-iron",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.ore-iron.name",
+        "DescriptionKey": "item.ore-iron.description"
+      },
+      "IconID": "ore-iron"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 8
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "ore-gold",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.ore-gold.name",
+        "DescriptionKey": "item.ore-gold.description"
+      },
+      "IconID": "ore-gold"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 15
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "ore-crystal",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.ore-crystal.name",
+        "DescriptionKey": "item.ore-crystal.description"
+      },
+      "IconID": "ore-crystal"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 25
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "ore-diamond",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.ore-diamond.name",
+        "DescriptionKey": "item.ore-diamond.description"
+      },
+      "IconID": "ore-diamond"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 50
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "bar-copper",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.bar-copper.name",
+        "DescriptionKey": "item.bar-copper.description"
+      },
+      "IconID": "bar-copper"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 10
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "bar-copper",
+        "MaterialItemDefinitionID": "ore-copper",
+        "Quantity": 2
+      },
+      {
+        "ItemDefinitionID": "bar-copper",
+        "MaterialItemDefinitionID": "ore-coal",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "bar-iron",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.bar-iron.name",
+        "DescriptionKey": "item.bar-iron.description"
+      },
+      "IconID": "bar-iron"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 20
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "bar-iron",
+        "MaterialItemDefinitionID": "ore-iron",
+        "Quantity": 2
+      },
+      {
+        "ItemDefinitionID": "bar-iron",
+        "MaterialItemDefinitionID": "ore-coal",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "bar-gold",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.bar-gold.name",
+        "DescriptionKey": "item.bar-gold.description"
+      },
+      "IconID": "bar-gold"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 35
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "bar-gold",
+        "MaterialItemDefinitionID": "ore-gold",
+        "Quantity": 2
+      },
+      {
+        "ItemDefinitionID": "bar-gold",
+        "MaterialItemDefinitionID": "ore-coal",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "pure-crystal",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.pure-crystal.name",
+        "DescriptionKey": "item.pure-crystal.description"
+      },
+      "IconID": "pure-crystal"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 60
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "pure-crystal",
+        "MaterialItemDefinitionID": "ore-crystal",
+        "Quantity": 3
+      },
+      {
+        "ItemDefinitionID": "pure-crystal",
+        "MaterialItemDefinitionID": "ore-coal",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "pure-diamond",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.pure-diamond.name",
+        "DescriptionKey": "item.pure-diamond.description"
+      },
+      "IconID": "pure-diamond"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 120
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "pure-diamond",
+        "MaterialItemDefinitionID": "ore-diamond",
+        "Quantity": 3
+      },
+      {
+        "ItemDefinitionID": "pure-diamond",
+        "MaterialItemDefinitionID": "ore-coal",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "wood",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.wood.name",
+        "DescriptionKey": "item.wood.description"
+      },
+      "IconID": "wood"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 1
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "stone",
+    "Type": 0,
+    "Category": 1,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.stone.name",
+        "DescriptionKey": "item.stone.description"
+      },
+      "IconID": "stone"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 1
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "potion-health",
+    "Type": 1,
+    "Category": 2,
+    "MaxStack": 20,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.potion-health.name",
+        "DescriptionKey": "item.potion-health.description"
+      },
+      "IconID": "potion-health"
+    },
+    "ConsumableConfig": {
+      "EffectDefinitionIDs": [
+        "potion-health-effect"
+      ]
+    },
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 15
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "potion-health",
+        "MaterialItemDefinitionID": "mushroom-light",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "potion-energy",
+    "Type": 1,
+    "Category": 2,
+    "MaxStack": 20,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.potion-energy.name",
+        "DescriptionKey": "item.potion-energy.description"
+      },
+      "IconID": "potion-energy"
+    },
+    "ConsumableConfig": {
+      "EffectDefinitionIDs": [
+        "potion-energy-effect"
+      ]
+    },
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 15
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "potion-energy",
+        "MaterialItemDefinitionID": "mushroom-dark",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "apple",
+    "Type": 1,
+    "Category": 2,
+    "MaxStack": 50,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.apple.name",
+        "DescriptionKey": "item.apple.description"
+      },
+      "IconID": "apple"
+    },
+    "ConsumableConfig": {
+      "EffectDefinitionIDs": [
+        "apple-effect"
+      ]
+    },
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 3
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "raw-chicken",
+    "Type": 1,
+    "Category": 2,
+    "MaxStack": 20,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.raw-chicken.name",
+        "DescriptionKey": "item.raw-chicken.description"
+      },
+      "IconID": "raw-chicken"
+    },
+    "ConsumableConfig": {
+      "EffectDefinitionIDs": [
+        "raw-chicken-effect"
+      ]
+    },
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 5
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "cooked-chicken",
+    "Type": 1,
+    "Category": 2,
+    "MaxStack": 20,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.cooked-chicken.name",
+        "DescriptionKey": "item.cooked-chicken.description"
+      },
+      "IconID": "cooked-chicken"
+    },
+    "ConsumableConfig": {
+      "EffectDefinitionIDs": [
+        "cooked-chicken-effect"
+      ]
+    },
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 12
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "cooked-chicken",
+        "MaterialItemDefinitionID": "raw-chicken",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "banana",
+    "Type": 1,
+    "Category": 2,
+    "MaxStack": 50,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.banana.name",
+        "DescriptionKey": "item.banana.description"
+      },
+      "IconID": "banana"
+    },
+    "ConsumableConfig": {
+      "EffectDefinitionIDs": [
+        "banana-effect"
+      ]
+    },
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 4
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": []
+  },
+  {
+    "Id": "sword-wooden",
+    "Type": 4,
+    "Category": 5,
+    "MaxStack": 1,
+    "MaxDurability": 50,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.sword-wooden.name",
+        "DescriptionKey": "item.sword-wooden.description"
+      },
+      "IconID": "sword-wooden"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": {
+      "EntityDefinitionID": "sword-wooden-projectile"
+    },
+    "TradingConfig": {
+      "NPCSellerID": "weaponsmith",
+      "Price": 10
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "sword-wooden",
+        "MaterialItemDefinitionID": "wood",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "sword-copper",
+    "Type": 4,
+    "Category": 5,
+    "MaxStack": 1,
+    "MaxDurability": 100,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.sword-copper.name",
+        "DescriptionKey": "item.sword-copper.description"
+      },
+      "IconID": "sword-copper"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": {
+      "EntityDefinitionID": "sword-copper-projectile"
+    },
+    "TradingConfig": {
+      "NPCSellerID": "weaponsmith",
+      "Price": 30
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "sword-copper",
+        "MaterialItemDefinitionID": "bar-copper",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "sword-iron",
+    "Type": 4,
+    "Category": 5,
+    "MaxStack": 1,
+    "MaxDurability": 200,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.sword-iron.name",
+        "DescriptionKey": "item.sword-iron.description"
+      },
+      "IconID": "sword-iron"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": {
+      "EntityDefinitionID": "sword-iron-projectile"
+    },
+    "TradingConfig": {
+      "NPCSellerID": "weaponsmith",
+      "Price": 60
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "sword-iron",
+        "MaterialItemDefinitionID": "bar-iron",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "sword-gold",
+    "Type": 4,
+    "Category": 5,
+    "MaxStack": 1,
+    "MaxDurability": 150,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.sword-gold.name",
+        "DescriptionKey": "item.sword-gold.description"
+      },
+      "IconID": "sword-gold"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": {
+      "EntityDefinitionID": "sword-gold-projectile"
+    },
+    "TradingConfig": {
+      "NPCSellerID": "weaponsmith",
+      "Price": 100
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "sword-gold",
+        "MaterialItemDefinitionID": "bar-gold",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "sword-crystal",
+    "Type": 4,
+    "Category": 5,
+    "MaxStack": 1,
+    "MaxDurability": 350,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.sword-crystal.name",
+        "DescriptionKey": "item.sword-crystal.description"
+      },
+      "IconID": "sword-crystal"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": {
+      "EntityDefinitionID": "sword-crystal-projectile"
+    },
+    "TradingConfig": {
+      "NPCSellerID": "weaponsmith",
+      "Price": 200
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "sword-crystal",
+        "MaterialItemDefinitionID": "pure-crystal",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "sword-diamond",
+    "Type": 4,
+    "Category": 5,
+    "MaxStack": 1,
+    "MaxDurability": 600,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.sword-diamond.name",
+        "DescriptionKey": "item.sword-diamond.description"
+      },
+      "IconID": "sword-diamond"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": {
+      "EntityDefinitionID": "sword-diamond-projectile"
+    },
+    "TradingConfig": {
+      "NPCSellerID": "weaponsmith",
+      "Price": 400
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "sword-diamond",
+        "MaterialItemDefinitionID": "pure-diamond",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "light-shroom-weapon",
+    "Type": 3,
+    "Category": 4,
+    "MaxStack": 1,
+    "MaxDurability": 100,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.light-shroom-weapon.name",
+        "DescriptionKey": "item.light-shroom-weapon.description"
+      },
+      "IconID": "light-shroom-weapon"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": {
+      "EntityDefinitionID": "light-shroom-projectile"
+    },
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 50
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "light-shroom-weapon",
+        "MaterialItemDefinitionID": "mushroom-light",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "dark-shroom-weapon",
+    "Type": 3,
+    "Category": 4,
+    "MaxStack": 1,
+    "MaxDurability": 100,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.dark-shroom-weapon.name",
+        "DescriptionKey": "item.dark-shroom-weapon.description"
+      },
+      "IconID": "dark-shroom-weapon"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": {
+      "EntityDefinitionID": "dark-shroom-projectile"
+    },
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 50
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "dark-shroom-weapon",
+        "MaterialItemDefinitionID": "mushroom-dark",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "earth-shroom-weapon",
+    "Type": 3,
+    "Category": 4,
+    "MaxStack": 1,
+    "MaxDurability": 100,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.earth-shroom-weapon.name",
+        "DescriptionKey": "item.earth-shroom-weapon.description"
+      },
+      "IconID": "earth-shroom-weapon"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": {
+      "EntityDefinitionID": "earth-shroom-projectile"
+    },
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 50
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "earth-shroom-weapon",
+        "MaterialItemDefinitionID": "mushroom-earth",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "fire-shroom-weapon",
+    "Type": 3,
+    "Category": 4,
+    "MaxStack": 1,
+    "MaxDurability": 100,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.fire-shroom-weapon.name",
+        "DescriptionKey": "item.fire-shroom-weapon.description"
+      },
+      "IconID": "fire-shroom-weapon"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": {
+      "EntityDefinitionID": "fire-shroom-projectile"
+    },
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 50
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "fire-shroom-weapon",
+        "MaterialItemDefinitionID": "mushroom-fire",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "ice-shroom-weapon",
+    "Type": 3,
+    "Category": 4,
+    "MaxStack": 1,
+    "MaxDurability": 100,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.ice-shroom-weapon.name",
+        "DescriptionKey": "item.ice-shroom-weapon.description"
+      },
+      "IconID": "ice-shroom-weapon"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": {
+      "EntityDefinitionID": "ice-shroom-projectile"
+    },
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "merchant",
+      "Price": 50
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "ice-shroom-weapon",
+        "MaterialItemDefinitionID": "mushroom-ice",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "bow-wooden",
+    "Type": 3,
+    "Category": 4,
+    "MaxStack": 1,
+    "MaxDurability": 80,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.bow-wooden.name",
+        "DescriptionKey": "item.bow-wooden.description"
+      },
+      "IconID": "bow-wooden"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": {
+      "EntityDefinitionID": "bow-wooden-projectile"
+    },
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "weaponsmith",
+      "Price": 25
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "bow-wooden",
+        "MaterialItemDefinitionID": "wood",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "bomb-ice",
+    "Type": 3,
+    "Category": 4,
+    "MaxStack": 10,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.bomb-ice.name",
+        "DescriptionKey": "item.bomb-ice.description"
+      },
+      "IconID": "bomb-ice"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": {
+      "EntityDefinitionID": "bomb-ice-projectile"
+    },
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "weaponsmith",
+      "Price": 15
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "bomb-ice",
+        "MaterialItemDefinitionID": "mushroom-ice",
+        "Quantity": 3
+      },
+      {
+        "ItemDefinitionID": "bomb-ice",
+        "MaterialItemDefinitionID": "stone",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "dynamite",
+    "Type": 3,
+    "Category": 4,
+    "MaxStack": 10,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.dynamite.name",
+        "DescriptionKey": "item.dynamite.description"
+      },
+      "IconID": "dynamite"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": null,
+    "RangedConfig": {
+      "EntityDefinitionID": "dynamite-projectile"
+    },
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "weaponsmith",
+      "Price": 20
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "dynamite",
+        "MaterialItemDefinitionID": "ore-coal",
+        "Quantity": 5
+      },
+      {
+        "ItemDefinitionID": "dynamite",
+        "MaterialItemDefinitionID": "stone",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "copper-head",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 100,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.copper-head.name",
+        "DescriptionKey": "item.copper-head.description"
+      },
+      "IconID": "copper-head"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 0,
+      "EffectDefinitionIDs": [
+        "copper-head-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 20
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "copper-head",
+        "MaterialItemDefinitionID": "bar-copper",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "copper-chestplate",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 120,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.copper-chestplate.name",
+        "DescriptionKey": "item.copper-chestplate.description"
+      },
+      "IconID": "copper-chestplate"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 1,
+      "EffectDefinitionIDs": [
+        "copper-chest-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 35
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "copper-chestplate",
+        "MaterialItemDefinitionID": "bar-copper",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "copper-pant",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 110,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.copper-pant.name",
+        "DescriptionKey": "item.copper-pant.description"
+      },
+      "IconID": "copper-pant"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 2,
+      "EffectDefinitionIDs": [
+        "copper-pant-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 25
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "copper-pant",
+        "MaterialItemDefinitionID": "bar-copper",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "copper-shoe",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 90,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.copper-shoe.name",
+        "DescriptionKey": "item.copper-shoe.description"
+      },
+      "IconID": "copper-shoe"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 3,
+      "EffectDefinitionIDs": [
+        "copper-shoe-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 15
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "copper-shoe",
+        "MaterialItemDefinitionID": "bar-copper",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "iron-head",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 180,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.iron-head.name",
+        "DescriptionKey": "item.iron-head.description"
+      },
+      "IconID": "iron-head"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 0,
+      "EffectDefinitionIDs": [
+        "iron-head-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 40
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "iron-head",
+        "MaterialItemDefinitionID": "bar-iron",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "iron-chestplate",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 200,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.iron-chestplate.name",
+        "DescriptionKey": "item.iron-chestplate.description"
+      },
+      "IconID": "iron-chestplate"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 1,
+      "EffectDefinitionIDs": [
+        "iron-chest-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 70
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "iron-chestplate",
+        "MaterialItemDefinitionID": "bar-iron",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "iron-pant",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 190,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.iron-pant.name",
+        "DescriptionKey": "item.iron-pant.description"
+      },
+      "IconID": "iron-pant"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 2,
+      "EffectDefinitionIDs": [
+        "iron-pant-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 50
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "iron-pant",
+        "MaterialItemDefinitionID": "bar-iron",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "iron-shoe",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 160,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.iron-shoe.name",
+        "DescriptionKey": "item.iron-shoe.description"
+      },
+      "IconID": "iron-shoe"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 3,
+      "EffectDefinitionIDs": [
+        "iron-shoe-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 30
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "iron-shoe",
+        "MaterialItemDefinitionID": "bar-iron",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "gold-head",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 140,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.gold-head.name",
+        "DescriptionKey": "item.gold-head.description"
+      },
+      "IconID": "gold-head"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 0,
+      "EffectDefinitionIDs": [
+        "gold-head-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 70
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "gold-head",
+        "MaterialItemDefinitionID": "bar-gold",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "gold-chestplate",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 160,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.gold-chestplate.name",
+        "DescriptionKey": "item.gold-chestplate.description"
+      },
+      "IconID": "gold-chestplate"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 1,
+      "EffectDefinitionIDs": [
+        "gold-chestplate-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 120
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "gold-chestplate",
+        "MaterialItemDefinitionID": "bar-gold",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "gold-pant",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 150,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.gold-pant.name",
+        "DescriptionKey": "item.gold-pant.description"
+      },
+      "IconID": "gold-pant"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 2,
+      "EffectDefinitionIDs": [
+        "gold-pant-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 90
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "gold-pant",
+        "MaterialItemDefinitionID": "bar-gold",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "gold-shoe",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 130,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.gold-shoe.name",
+        "DescriptionKey": "item.gold-shoe.description"
+      },
+      "IconID": "gold-shoe"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 3,
+      "EffectDefinitionIDs": [
+        "gold-shoe-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 50
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "gold-shoe",
+        "MaterialItemDefinitionID": "bar-gold",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "crystal-head",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 300,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.crystal-head.name",
+        "DescriptionKey": "item.crystal-head.description"
+      },
+      "IconID": "crystal-head"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 0,
+      "EffectDefinitionIDs": [
+        "crystal-head-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 150
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "crystal-head",
+        "MaterialItemDefinitionID": "pure-crystal",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "crystal-chestplate",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 350,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.crystal-chestplate.name",
+        "DescriptionKey": "item.crystal-chestplate.description"
+      },
+      "IconID": "crystal-chestplate"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 1,
+      "EffectDefinitionIDs": [
+        "crystal-chest-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 250
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "crystal-chestplate",
+        "MaterialItemDefinitionID": "pure-crystal",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "crystal-pant",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 320,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.crystal-pant.name",
+        "DescriptionKey": "item.crystal-pant.description"
+      },
+      "IconID": "crystal-pant"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 2,
+      "EffectDefinitionIDs": [
+        "crystal-pant-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 200
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "crystal-pant",
+        "MaterialItemDefinitionID": "pure-crystal",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "crystal-shoe",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 280,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.crystal-shoe.name",
+        "DescriptionKey": "item.crystal-shoe.description"
+      },
+      "IconID": "crystal-shoe"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 3,
+      "EffectDefinitionIDs": [
+        "crystal-shoe-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 120
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "crystal-shoe",
+        "MaterialItemDefinitionID": "pure-crystal",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "diamond-head",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 500,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.diamond-head.name",
+        "DescriptionKey": "item.diamond-head.description"
+      },
+      "IconID": "diamond-head"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 0,
+      "EffectDefinitionIDs": [
+        "diamond-head-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 300
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "diamond-head",
+        "MaterialItemDefinitionID": "pure-diamond",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "diamond-chestplate",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 600,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.diamond-chestplate.name",
+        "DescriptionKey": "item.diamond-chestplate.description"
+      },
+      "IconID": "diamond-chestplate"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 1,
+      "EffectDefinitionIDs": [
+        "diamond-chest-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 500
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "diamond-chestplate",
+        "MaterialItemDefinitionID": "pure-diamond",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "diamond-pant",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 550,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.diamond-pant.name",
+        "DescriptionKey": "item.diamond-pant.description"
+      },
+      "IconID": "diamond-pant"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 2,
+      "EffectDefinitionIDs": [
+        "diamond-pant-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 400
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "diamond-pant",
+        "MaterialItemDefinitionID": "pure-diamond",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "diamond-shoe",
+    "Type": 8,
+    "Category": 0,
+    "MaxStack": 1,
+    "MaxDurability": 450,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.diamond-shoe.name",
+        "DescriptionKey": "item.diamond-shoe.description"
+      },
+      "IconID": "diamond-shoe"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": {
+      "Slot": 3,
+      "EffectDefinitionIDs": [
+        "diamond-shoe-effect"
+      ]
+    },
+    "PlaceableConfig": null,
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "armorer",
+      "Price": 250
+    },
+    "CostConfig": {
+      "Method": 2
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "diamond-shoe",
+        "MaterialItemDefinitionID": "pure-diamond",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "wooden-chair",
+    "Type": 2,
+    "Category": 3,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.wooden-chair.name",
+        "DescriptionKey": "item.wooden-chair.description"
+      },
+      "IconID": "wooden-chair"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": {
+      "EntityDefinitionID": "wooden-chair"
+    },
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "carpenter",
+      "Price": 10
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "wooden-chair",
+        "MaterialItemDefinitionID": "wood",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "wooden-table",
+    "Type": 2,
+    "Category": 3,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.wooden-table.name",
+        "DescriptionKey": "item.wooden-table.description"
+      },
+      "IconID": "wooden-table"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": {
+      "EntityDefinitionID": "wooden-table"
+    },
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "carpenter",
+      "Price": 20
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "wooden-table",
+        "MaterialItemDefinitionID": "wood",
+        "Quantity": 8
+      }
+    ]
+  },
+  {
+    "Id": "stone-furnace",
+    "Type": 2,
+    "Category": 3,
+    "MaxStack": 99,
+    "MaxDurability": null,
+    "TriggeredAction": null,
+    "Presentation": {
+      "LocalizedText": {
+        "NameKey": "item.stone-furnace.name",
+        "DescriptionKey": "item.stone-furnace.description"
+      },
+      "IconID": "stone-furnace"
+    },
+    "ConsumableConfig": null,
+    "EquippableConfig": null,
+    "PlaceableConfig": {
+      "EntityDefinitionID": "stone-furnace"
+    },
+    "RangedConfig": null,
+    "MeleeConfig": null,
+    "TradingConfig": {
+      "NPCSellerID": "blacksmith",
+      "Price": 30
+    },
+    "CostConfig": {
+      "Method": 1
+    },
+    "RequiredMaterials": [
+      {
+        "ItemDefinitionID": "stone-furnace",
+        "MaterialItemDefinitionID": "stone",
+        "Quantity": 20
+      }
+    ]
+  }
+]

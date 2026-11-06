@@ -1,0 +1,722 @@
+[
+    {
+        "Id": "sword-wooden-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "sword-wooden-projectile",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 1.2,
+                "Height": 0.8,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "sword-wooden-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "sword-wooden-projectile",
+                "Velocity": 0,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "sword-wooden-projectile",
+                "EffectDefinitionIDs": [
+                    "sword-wooden-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "sword-wooden-projectile",
+                "Duration": 0.12
+            }
+        ]
+    },
+    {
+        "Id": "sword-copper-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "sword-copper-projectile",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 1.3,
+                "Height": 0.9,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "sword-copper-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "sword-copper-projectile",
+                "Velocity": 0,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "sword-copper-projectile",
+                "EffectDefinitionIDs": [
+                    "sword-copper-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "sword-copper-projectile",
+                "Duration": 0.14
+            }
+        ]
+    },
+    {
+        "Id": "sword-iron-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "sword-iron-projectile",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 1.5,
+                "Height": 1.0,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "sword-iron-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "sword-iron-projectile",
+                "Velocity": 0,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "sword-iron-projectile",
+                "EffectDefinitionIDs": [
+                    "sword-iron-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "sword-iron-projectile",
+                "Duration": 0.15
+            }
+        ]
+    },
+    {
+        "Id": "sword-gold-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "sword-gold-projectile",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 1.5,
+                "Height": 1.0,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "sword-gold-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "sword-gold-projectile",
+                "Velocity": 0,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "sword-gold-projectile",
+                "EffectDefinitionIDs": [
+                    "sword-gold-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "sword-gold-projectile",
+                "Duration": 0.15
+            }
+        ]
+    },
+    {
+        "Id": "sword-crystal-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "sword-crystal-projectile",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 1.6,
+                "Height": 1.1,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "sword-crystal-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "sword-crystal-projectile",
+                "Velocity": 0,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "sword-crystal-projectile",
+                "EffectDefinitionIDs": [
+                    "sword-crystal-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "sword-crystal-projectile",
+                "Duration": 0.16
+            }
+        ]
+    },
+    {
+        "Id": "sword-diamond-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "sword-diamond-projectile",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 1.8,
+                "Height": 1.2,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "sword-diamond-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "sword-diamond-projectile",
+                "Velocity": 0,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "sword-diamond-projectile",
+                "EffectDefinitionIDs": [
+                    "sword-diamond-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "sword-diamond-projectile",
+                "Duration": 0.18
+            }
+        ]
+    },
+    {
+        "Id": "bow-wooden-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "bow-wooden-projectile",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 0.25,
+                "Height": 0.25,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "bow-wooden-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "bow-wooden-projectile",
+                "Velocity": 18,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "bow-wooden-projectile",
+                "EffectDefinitionIDs": [
+                    "bow-wooden-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "bow-wooden-projectile",
+                "Duration": 3.0
+            }
+        ]
+    },
+    {
+        "Id": "bomb-ice-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-projectile",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 0.5,
+                "Height": 0.5,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-projectile",
+                "Velocity": 10,
+                "OnImpactSpawnEntityDefinitionID": "bomb-ice-explosion"
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-projectile",
+                "EffectDefinitionIDs": [
+                    "bomb-ice-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-projectile",
+                "Duration": 3.0
+            }
+        ]
+    },
+    {
+        "Id": "bomb-ice-explosion",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-explosion",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 2.0,
+                "Height": 2.0,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-explosion",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-explosion",
+                "Velocity": 0,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-explosion",
+                "EffectDefinitionIDs": [
+                    "bomb-ice-explosion-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "bomb-ice-explosion",
+                "Duration": 0.15
+            }
+        ]
+    },
+    {
+        "Id": "dynamite-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "dynamite-projectile",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 0.4,
+                "Height": 0.4,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "dynamite-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "dynamite-projectile",
+                "Velocity": 10,
+                "OnImpactSpawnEntityDefinitionID": "dynamite-explosion"
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "dynamite-projectile",
+                "EffectDefinitionIDs": [
+                    "dynamite-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "dynamite-projectile",
+                "Duration": 3.0
+            }
+        ]
+    },
+    {
+        "Id": "dynamite-explosion",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "dynamite-explosion",
+                "CollisionRole": 2,
+                "ShapeType": 1,
+                "Width": 2.5,
+                "Height": 2.5,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "dynamite-explosion",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "dynamite-explosion",
+                "Velocity": 0,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "dynamite-explosion",
+                "EffectDefinitionIDs": [
+                    "dynamite-explosion-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "dynamite-explosion",
+                "Duration": 0.15
+            }
+        ]
+    },
+    {
+        "Id": "light-shroom-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "light-shroom-projectile",
+                "CollisionRole": 3,
+                "ShapeType": 1,
+                "Width": 0.4,
+                "Height": 0.4,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "light-shroom-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "light-shroom-projectile",
+                "Velocity": 12,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "light-shroom-projectile",
+                "EffectDefinitionIDs": [
+                    "light-shroom-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "light-shroom-projectile",
+                "Duration": 3.0
+            }
+        ]
+    },
+    {
+        "Id": "dark-shroom-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "dark-shroom-projectile",
+                "CollisionRole": 3,
+                "ShapeType": 1,
+                "Width": 0.4,
+                "Height": 0.4,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "dark-shroom-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "dark-shroom-projectile",
+                "Velocity": 12,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "dark-shroom-projectile",
+                "EffectDefinitionIDs": [
+                    "dark-shroom-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "dark-shroom-projectile",
+                "Duration": 3.0
+            }
+        ]
+    },
+    {
+        "Id": "earth-shroom-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "earth-shroom-projectile",
+                "CollisionRole": 3,
+                "ShapeType": 1,
+                "Width": 0.5,
+                "Height": 0.5,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "earth-shroom-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "earth-shroom-projectile",
+                "Velocity": 10,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "earth-shroom-projectile",
+                "EffectDefinitionIDs": [
+                    "earth-shroom-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "earth-shroom-projectile",
+                "Duration": 3.0
+            }
+        ]
+    },
+    {
+        "Id": "fire-shroom-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "fire-shroom-projectile",
+                "CollisionRole": 3,
+                "ShapeType": 1,
+                "Width": 0.4,
+                "Height": 0.4,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "fire-shroom-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "fire-shroom-projectile",
+                "Velocity": 14,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "fire-shroom-projectile",
+                "EffectDefinitionIDs": [
+                    "fire-shroom-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "fire-shroom-projectile",
+                "Duration": 3.0
+            }
+        ]
+    },
+    {
+        "Id": "ice-shroom-projectile",
+        "Type": 0,
+        "Components": [
+            {
+                "ComponentType": "CollisionDefinitionDTO",
+                "EntityDefinitionID": "ice-shroom-projectile",
+                "CollisionRole": 3,
+                "ShapeType": 1,
+                "Width": 0.4,
+                "Height": 0.4,
+                "Radius": 0,
+                "IsBlocking": false,
+                "OffsetX": 0,
+                "OffsetY": 0
+            },
+            {
+                "ComponentType": "AppearanceDefinitionDTO",
+                "EntityDefinitionID": "ice-shroom-projectile",
+                "SkinColor": {
+                    "H": 0,
+                    "S": 0,
+                    "V": 1
+                }
+            },
+            {
+                "ComponentType": "ProjectileDefinitionDTO",
+                "EntityDefinitionID": "ice-shroom-projectile",
+                "Velocity": 12,
+                "OnImpactSpawnEntityDefinitionID": null
+            },
+            {
+                "ComponentType": "TriggeredEffectDefinitionDTO",
+                "EntityDefinitionID": "ice-shroom-projectile",
+                "EffectDefinitionIDs": [
+                    "ice-shroom-effect"
+                ]
+            },
+            {
+                "ComponentType": "LifetimeDefinitionDTO",
+                "EntityDefinitionID": "ice-shroom-projectile",
+                "Duration": 3.0
+            }
+        ]
+    }
+]
