@@ -12,4 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06103539cda69f446be3b91e08d59219, type: 3}
   m_Name: MusicCatalog
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Source.Data.MusicCatalogSO
-  entries: []
+  entries:
+  - audio: {fileID: 8300000, guid: d88637901e89787448050735c5fb204f, type: 3}
+    index: 0
+    localizationKey: song.song-1
+  - audio: {fileID: 8300000, guid: 504e74d08929d34408b8191fbed35a75, type: 3}
+    index: 1
+    localizationKey: song.song-2
+  - audio: {fileID: 8300000, guid: b437ff7e093e9e04ba591196391e37e3, type: 3}
+    index: 2
+    localizationKey: song.song-3
+  - audio: {fileID: 8300000, guid: 921db632b18796b44a54223770881942, type: 3}
+    index: 3
+    localizationKey: song.song-4

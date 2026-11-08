@@ -12,4 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2de454a9a93db2247b1ed9a9c461c505, type: 3}
   m_Name: CursorCatalog
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Source.Data.CursorCatalogSO
-  entries: []
+  entries:
+  - type: 0
+    texture: {fileID: 2800000, guid: 11c55b8e71bfc4949a4149fed58fe393, type: 3}
+  - type: 1
+    texture: {fileID: 2800000, guid: 1ef2e74d48922d547bb841420f4d2736, type: 3}
+  - type: 2
+    texture: {fileID: 2800000, guid: c156e02faca5c7c49ae8d44db5fc5980, type: 3}
+  - type: 3
+    texture: {fileID: 2800000, guid: 59a01a5d654842a4abdd460b3744d0f8, type: 3}
+  - type: 4
+    texture: {fileID: 2800000, guid: 11c55b8e71bfc4949a4149fed58fe393, type: 3}
+  - type: 5
+    texture: {fileID: 2800000, guid: f4430428ccba999448807ee4fa2bf315, type: 3}
+  - type: 6
+    texture: {fileID: 2800000, guid: 927af6043ad9bbd458f5e13dfc209a59, type: 3}
