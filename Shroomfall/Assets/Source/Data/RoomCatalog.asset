@@ -12,4 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2b4b3babee7c734aaa39fccc9a67bba, type: 3}
   m_Name: RoomCatalog
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Source.Data.RoomCatalogSO
-  rooms: []
+  rooms:
+  - id: tutorial-room
+    icon: {fileID: 0}
+    roomPrefab: {fileID: 7468768719126800074, guid: 7d1522de19177e5448f344e4d1eecde7, type: 3}
+  - id: witch-house
+    icon: {fileID: 3137622165845021295, guid: 1312181b2c9b950489cb7612ad68f850, type: 3}
+    roomPrefab: {fileID: 5221842360051744863, guid: f9ed32ad5bcc43445b3e638a191961b3, type: 3}
+  - id: village
+    icon: {fileID: 0}
+    roomPrefab: {fileID: 5221842360051744863, guid: 6036acd18ee9a284c812848d2cea490f, type: 3}
+  - id: forest
+    icon: {fileID: 0}
+    roomPrefab: {fileID: 6056241005994587341, guid: b351457fdd46f474bbb8e8b6a3eece16, type: 3}

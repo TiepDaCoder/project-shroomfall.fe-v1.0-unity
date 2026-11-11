@@ -12,4 +12,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc3b4eaab6fbc524e84e7511e27ffc07, type: 3}
   m_Name: EntityCatalog
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Source.Data.EntityCatalogSO
-  entities: []
+  entities:
+  - id: fire-shroom
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: d2ba6132d4656e14ea09b606e18fab7f, type: 2}
+  - id: ice-shroom
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: eb923dc9fa8e18f41b47a2548a01b2d6, type: 2}
+  - id: archer
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 49815628907d727499e4944415fc8cdb, type: 2}
+  - id: witch
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: e5db1a58814f8fd488524df3015c2dac, type: 2}
+  - id: warrior
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 5931b7e4fc0b6f547aca0b8a78f7c6d3, type: 2}
+  - id: bow-wooden-projectile
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 10452b14481176a47b97f3e4b03641a7, type: 2}
+  - id: bomb-ice-projectile
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: ae12acec31149e74293c86e6ce73127d, type: 2}
+  - id: bomb-ice-explosion
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: dcb2d35d12b06e943a41d5c2508d6a51, type: 2}
+  - id: dynamite-projectile
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: d2e2698f5aef14a4693b8920fab59d51, type: 2}
+  - id: dynamite-explosion
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: fab4df4af378c774a973e83d674d4ebe, type: 2}
+  - id: stone-furnace
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: e13c720563b251845b87f0467b506423, type: 2}
+  - id: wooden-chair
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 636be8c22d991df46971bc98ec151cc9, type: 2}
+  - id: wooden-table
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 66bc6c37731c9074388fe919b80814ec, type: 2}
+  - id: earth-shroom-projectile
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: e5de39befe076f845a61fdbef6353630, type: 2}
+  - id: ice-shroom-projectile
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: ef404218933066a4fb862a19606831f0, type: 2}
+  - id: fire-shroom-projectile
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: f7171075ddd3eff43bc7e9ba03242332, type: 2}
+  - id: dark-shroom-projectile
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 6ac9b69f8684bcd4a9fc0fcd81188627, type: 2}
+  - id: light-shroom-projectile
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 1bb3542d15f2725489284c96084f3055, type: 2}
+  - id: default_item
+    icon: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 211f3295b903c17419a70ccfd7583efe, type: 2}
