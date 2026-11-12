@@ -9,6 +9,10 @@
       "value": "A game made for FPTU Ho Chi Minh Capstone Project"
     },
     {
+      "key": "customize-view.submit-btn",
+      "value": "Submit"
+    },
+    {
       "key": "customize-view.name-placeholder",
       "value": "Name"
     },

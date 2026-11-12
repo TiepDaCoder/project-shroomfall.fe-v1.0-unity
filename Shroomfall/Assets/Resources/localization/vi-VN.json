@@ -9,6 +9,10 @@
       "value": "Tựa game phát triển cho Đồ Án tại FPTU Ho Chi Minh"
     },
     {
+      "key": "customize-view.submit-btn",
+      "value": "Áp dụng"
+    },
+    {
       "key": "customize-view.name-placeholder",
       "value": "Tên"
     },
