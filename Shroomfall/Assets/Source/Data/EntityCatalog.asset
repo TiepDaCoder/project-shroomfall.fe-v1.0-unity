@@ -44,13 +44,13 @@ MonoBehaviour:
     icon: {fileID: 0}
     animatorOverride: {fileID: 22100000, guid: fab4df4af378c774a973e83d674d4ebe, type: 2}
   - id: stone-furnace
-    icon: {fileID: 0}
+    icon: {fileID: 7825934452712438523, guid: c041f628c0229c2479f080992de22f88, type: 3}
     animatorOverride: {fileID: 22100000, guid: e13c720563b251845b87f0467b506423, type: 2}
   - id: wooden-chair
-    icon: {fileID: 0}
+    icon: {fileID: -7209104186892743824, guid: f0e5efba31d8fe94698c13b7b70cbd98, type: 3}
     animatorOverride: {fileID: 22100000, guid: 636be8c22d991df46971bc98ec151cc9, type: 2}
   - id: wooden-table
-    icon: {fileID: 0}
+    icon: {fileID: 3121697171005943431, guid: 15c50db7636ff4c4dba52370bbf203d9, type: 3}
     animatorOverride: {fileID: 22100000, guid: 66bc6c37731c9074388fe919b80814ec, type: 2}
   - id: earth-shroom-projectile
     icon: {fileID: 0}

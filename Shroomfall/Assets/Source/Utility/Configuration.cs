@@ -8,8 +8,8 @@
         public const string GAME_CONTROLLER = "game/game/";
         public const string IDENTITY_CONTROLLER = "management/identity/";
 
-        public const string GOOGLE_CLIENT_ID = "";
-        public const string GOOGLE_CLIENT_SECRET = "";
+        public const string GOOGLE_CLIENT_ID = "724141116249-4fdc82rlh2eafnh2hrlkac51tv7uim2o.apps.googleusercontent.com";
+        public const string GOOGLE_CLIENT_SECRET = "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";
 
         public const string TUTORIAL_SCENE = "TutorialScene";
         public const string INTRODUCTION_SCENE = "IntroductionScene";

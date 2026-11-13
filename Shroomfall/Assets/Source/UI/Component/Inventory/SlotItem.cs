@@ -146,12 +146,17 @@ namespace Assets.Source.UI.Component.Inventory
 
         private void ReturnToOriginalParent()
         {
-            if (originalParent != null)
+            var slot = originalParent != null ? originalParent.GetComponentInParent<Slot>() : null;
+
+            // OnDrop runs before OnEndDrag: a swap rebuilds the inventory, so this view is stale and
+            // re-attaching it would steal the slot from the fresh view and leave that one orphaned.
+            if (slot == null || slot.CurrentItem != this)
             {
-                var slot = originalParent.GetComponentInParent<Slot>();
-                if (slot != null)
-                    slot.SetItemView(this);
+                Destroy(gameObject);
+                return;
             }
+
+            slot.SetItemView(this);
         }
 
         private void SetPivotWithoutMoving(

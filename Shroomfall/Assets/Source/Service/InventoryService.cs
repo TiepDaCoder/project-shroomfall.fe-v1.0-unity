@@ -78,16 +78,54 @@ namespace Assets.Source.Service
             OnChanged?.Invoke();
         }
 
+        // Keeps the player's slot layout: known items stay in their slot (refreshed), gone items free their slot,
+        // new items fill the first empty slot.
         private void ReindexInventory()
         {
-            Array.Clear(IndexedInventory, 0, IndexedInventory.Length);
-
             var inventory = playerService.Runtime?.Components?.OfType<InventoryInstanceDTO>().FirstOrDefault();
             if (inventory?.Items == null)
+            {
+                Array.Clear(IndexedInventory, 0, IndexedInventory.Length);
                 return;
+            }
 
-            for (int i = 0; i < inventory.Items.Count && i < MAX_INVENTORY_SLOTS; i++)
-                IndexedInventory[i] = inventory.Items[i];
+            var incoming = inventory.Items.Where(x => x?.ID != null).GroupBy(x => x.ID).ToDictionary(g => g.Key, g => g.First());
+
+            for (int i = 0; i < MAX_INVENTORY_SLOTS; i++)
+            {
+                var current = IndexedInventory[i];
+                if (current?.ID == null)
+                {
+                    IndexedInventory[i] = null;
+                    continue;
+                }
+
+                if (incoming.TryGetValue(current.ID, out var updated))
+                {
+                    IndexedInventory[i] = updated;
+                    incoming.Remove(current.ID);
+                }
+                else
+                {
+                    IndexedInventory[i] = null;
+                }
+            }
+
+            // iterate the server list (not the dictionary) so new items keep the server's order
+            int slot = 0;
+            foreach (var item in inventory.Items)
+            {
+                if (item?.ID == null || !incoming.Remove(item.ID))
+                    continue;
+
+                while (slot < MAX_INVENTORY_SLOTS && IndexedInventory[slot] != null)
+                    slot++;
+
+                if (slot >= MAX_INVENTORY_SLOTS)
+                    break;
+
+                IndexedInventory[slot] = item;
+            }
         }
 
         public void SetSelectedItem(
