@@ -2,17 +2,24 @@
 # Unity generated  #
 # ================= #
 
-PlainWorld/[Ll]ibrary/
-PlainWorld/[Tt]emp/
-PlainWorld/[Oo]bj/
-PlainWorld/[Bb]uild/
-PlainWorld/[Bb]uilds/
-PlainWorld/[Ll]ogs/
-PlainWorld/[Mm]emoryCaptures/
-PlainWorld/UserSettings/
+/Shroomfall/[Ll]ibrary/
+/Shroomfall/[Tt]emp/
+/Shroomfall/[Oo]bj/
+/Shroomfall/[Bb]uild/
+/Shroomfall/[Bb]uilds/
+/Shroomfall/[Ll]ogs/
+/Shroomfall/[Mm]emoryCaptures/
+/Shroomfall/[Uu]ser[Ss]ettings/
 
 # Asset meta data should be tracked
 # *.meta
+
+# ================= #
+# Local secrets     #
+# ================= #
+
+/Shroomfall/Assets/Source/Utility/Configuration.cs
+/Shroomfall/Assets/Source/Utility/Configuration.cs.meta
 
 # =============================== #
 # Visual Studio / Rider / VSCode #
@@ -53,27 +60,4 @@ PlainWorld/UserSettings/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db
-
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Mm]emoryCaptures/
-
-UserSettings/
-
-.vs/
-.vscode/
-
-*.csproj
-*.sln
-*.user
-*.pidb
-*.booproj
-*.svd
-
-.DS_Store
 Thumbs.db
