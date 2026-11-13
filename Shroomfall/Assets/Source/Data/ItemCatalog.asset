@@ -12,4 +12,187 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e502da919093ed34a8796f829ecaf483, type: 3}
   m_Name: ItemCatalog
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Source.Data.ItemCatalogSO
-  items: []
+  items:
+  - id: mushroom-dark
+    icon: {fileID: 6944860554716714661, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: mushroom-light
+    icon: {fileID: -1436737010001919827, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: mushroom-earth
+    icon: {fileID: -3001048234164884728, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: mushroom-fire
+    icon: {fileID: -4354388698314454851, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: mushroom-ice
+    icon: {fileID: 7062750829779794215, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: ore-coal
+    icon: {fileID: 781360877626463372, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: ore-copper
+    icon: {fileID: 2351598199307354897, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: ore-iron
+    icon: {fileID: 2177341091934160433, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: ore-gold
+    icon: {fileID: -1909466935373873167, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: ore-crystal
+    icon: {fileID: 1680488557763199363, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: ore-diamond
+    icon: {fileID: 3705654267185425488, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: bar-copper
+    icon: {fileID: 1464987766071429586, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: bar-iron
+    icon: {fileID: -7156699133377834426, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: bar-gold
+    icon: {fileID: 5866986730852643100, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: pure-crystal
+    icon: {fileID: 5355034818527980624, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: pure-diamond
+    icon: {fileID: -8930647538141086780, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: wood
+    icon: {fileID: -1364243072792539273, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: stone
+    icon: {fileID: -6659603084863605406, guid: 7a93335f01582c84bbe5e6ef5c26202b, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: potion-health
+    icon: {fileID: -5219391466150193939, guid: 1996ea665180ebd4eb7ea4b689d8420f, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: potion-energy
+    icon: {fileID: 5329274513008582335, guid: 1996ea665180ebd4eb7ea4b689d8420f, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: apple
+    icon: {fileID: 5626262946584678618, guid: 1996ea665180ebd4eb7ea4b689d8420f, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: raw-chicken
+    icon: {fileID: -3645745798556270038, guid: 1996ea665180ebd4eb7ea4b689d8420f, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: cooked-chicken
+    icon: {fileID: -8343969961483794792, guid: 1996ea665180ebd4eb7ea4b689d8420f, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: banana
+    icon: {fileID: -3541629210004675504, guid: 1996ea665180ebd4eb7ea4b689d8420f, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: sword-wooden
+    icon: {fileID: -2661940791661721103, guid: 5d74dc4f50d3aae4ea88c40d0c434355, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: sword-copper
+    icon: {fileID: -2516342801225036468, guid: 5d74dc4f50d3aae4ea88c40d0c434355, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: sword-iron
+    icon: {fileID: 2977654271811805245, guid: 5d74dc4f50d3aae4ea88c40d0c434355, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: sword-gold
+    icon: {fileID: -6291595950532465287, guid: 5d74dc4f50d3aae4ea88c40d0c434355, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: sword-crystal
+    icon: {fileID: 5562073413196021827, guid: 5d74dc4f50d3aae4ea88c40d0c434355, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: sword-diamond
+    icon: {fileID: -7742792494748055849, guid: 5d74dc4f50d3aae4ea88c40d0c434355, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: light-shroom-weapon
+    icon: {fileID: 1418433557756028176, guid: cb3a13e379284ab48bbd676a1c6d291d, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: dark-shroom-weapon
+    icon: {fileID: 6091621147834211024, guid: cb3a13e379284ab48bbd676a1c6d291d, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: earth-shroom-weapon
+    icon: {fileID: 6252744157580657273, guid: cb3a13e379284ab48bbd676a1c6d291d, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: fire-shroom-weapon
+    icon: {fileID: 4942261898366653778, guid: cb3a13e379284ab48bbd676a1c6d291d, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: ice-shroom-weapon
+    icon: {fileID: -577446707451430964, guid: cb3a13e379284ab48bbd676a1c6d291d, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: bow-wooden
+    icon: {fileID: -2478184414992602943, guid: cb3a13e379284ab48bbd676a1c6d291d, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: bomb-ice
+    icon: {fileID: 4379442882750079336, guid: cb3a13e379284ab48bbd676a1c6d291d, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: dynamite
+    icon: {fileID: -1795645917823936579, guid: cb3a13e379284ab48bbd676a1c6d291d, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: copper-head
+    icon: {fileID: -2157692277559419764, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: copper-chestplate
+    icon: {fileID: -4490467793777129706, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: copper-pant
+    icon: {fileID: 4927992508577138703, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: copper-shoe
+    icon: {fileID: 1614995160751574292, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: iron-head
+    icon: {fileID: -4690397273630591251, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: iron-chestplate
+    icon: {fileID: 8556294374174257361, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: iron-pant
+    icon: {fileID: -5003396811403688542, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: iron-shoe
+    icon: {fileID: -6376026154449420320, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: gold-head
+    icon: {fileID: -4115186547621149397, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: gold-chestplate
+    icon: {fileID: -6394696914154689267, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: gold-pant
+    icon: {fileID: 6244001998519115522, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: gold-shoe
+    icon: {fileID: -460010260482232616, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: crystal-head
+    icon: {fileID: 8631840227795179510, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: crystal-chestplate
+    icon: {fileID: -5940183348029827539, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: crystal-pant
+    icon: {fileID: -917037477886359152, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: crystal-shoe
+    icon: {fileID: 6428290530286975342, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: diamond-head
+    icon: {fileID: -4891229908891474613, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: diamond-chestplate
+    icon: {fileID: 7335579262714711686, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: diamond-pant
+    icon: {fileID: -2540131390789616154, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: diamond-shoe
+    icon: {fileID: 4156525535539309902, guid: dc399d28e488c614fa60c3bd80c46250, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: wooden-chair
+    icon: {fileID: 566614744504696054, guid: 7eaa439c90950b24f899e5fc8f19150f, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: wooden-table
+    icon: {fileID: -8387987191266919559, guid: 7eaa439c90950b24f899e5fc8f19150f, type: 3}
+    animatorOverride: {fileID: 0}
+  - id: stone-furnace
+    icon: {fileID: -7911080910287723305, guid: 7eaa439c90950b24f899e5fc8f19150f, type: 3}
+    animatorOverride: {fileID: 0}

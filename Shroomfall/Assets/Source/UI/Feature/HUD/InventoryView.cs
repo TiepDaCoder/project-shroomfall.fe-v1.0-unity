@@ -137,28 +137,131 @@ namespace Assets.Source.UI.Feature.HUD
         #endregion
 
         #region Inventory Binding
+
         private void OnInventoryChanged()
         {
-            for (int i = 0; i < slots.Length; i++)
-                slots[i].Clear();
+            Debug.Log("[InventoryUI] ===== OnInventoryChanged START =====");
 
-            if (inventoryService.IndexedInventory == null)
-                return;
-
-            for (int i = 0; i < slots.Length && i < inventoryService.IndexedInventory.Length; i++)
+            // 1. Check slots
+            if (slots == null)
             {
-                var item = inventoryService.IndexedInventory[i];
-                if (item == null)
-                    continue;
-
-                var definition = definitionService.GetItemDefinition(item.DefinitionID);
-                var itemView = Instantiate(slotItemPrefab, slots[i].transform, false);
-                itemView.Bind(item, definition, i);
-                slots[i].SetItemView(itemView);
+                Debug.LogError("[InventoryUI] slots is NULL!");
+                return;
             }
 
+            Debug.Log($"[InventoryUI] Total slots: {slots.Length}");
+
+            // 2. Clear all slots
+            for (int i = 0; i < slots.Length; i++)
+            {
+                if (slots[i] == null)
+                {
+                    Debug.LogError($"[InventoryUI] Slot at index {i} is NULL!");
+                    continue;
+                }
+
+                slots[i].Clear();
+            }
+
+            Debug.Log("[InventoryUI] All slots cleared.");
+
+            // 3. Check inventory
+            if (inventoryService == null)
+            {
+                Debug.LogError("[InventoryUI] inventoryService is NULL!");
+                return;
+            }
+
+            if (inventoryService.IndexedInventory == null)
+            {
+                Debug.LogWarning("[InventoryUI] IndexedInventory is NULL!");
+                return;
+            }
+
+            var inventory = inventoryService.IndexedInventory;
+
+            Debug.Log($"[InventoryUI] Inventory size: {inventory.Length}");
+
+            // 4. Check prefab
+            if (slotItemPrefab == null)
+            {
+                Debug.LogError("[InventoryUI] slotItemPrefab is NULL!");
+                return;
+            }
+
+            // 5. Render items
+            int renderedCount = 0;
+            int emptyCount = 0;
+
+            for (int i = 0; i < slots.Length && i < inventory.Length; i++)
+            {
+                var item = inventory[i];
+
+                if (item == null)
+                {
+                    emptyCount++;
+                    Debug.Log($"[InventoryUI] Slot {i}: Empty");
+                    continue;
+                }
+
+                Debug.Log($"[InventoryUI] Slot {i}: Found item - DefinitionID: {item.DefinitionID}");
+
+                // Check definition
+                if (definitionService == null)
+                {
+                    Debug.LogError("[InventoryUI] definitionService is NULL!");
+                    continue;
+                }
+
+                var definition = definitionService.GetItemDefinition(item.DefinitionID);
+
+                if (definition == null)
+                {
+                    Debug.LogError(
+                        $"[InventoryUI] Slot {i}: Cannot find ItemDefinition for ID '{item.DefinitionID}'"
+                    );
+                    continue;
+                }
+
+                Debug.Log($"[InventoryUI] Slot {i}: Definition found.");
+
+                // Instantiate item view
+                var itemView = Instantiate(slotItemPrefab, slots[i].transform, false);
+
+                if (itemView == null)
+                {
+                    Debug.LogError($"[InventoryUI] Slot {i}: Failed to instantiate itemView!");
+                    continue;
+                }
+
+                Debug.Log($"[InventoryUI] Slot {i}: ItemView instantiated.");
+
+                itemView.Bind(item, definition, i);
+
+                Debug.Log($"[InventoryUI] Slot {i}: Bind completed.");
+
+                slots[i].SetItemView(itemView);
+
+                renderedCount++;
+
+                Debug.Log($"[InventoryUI] Slot {i}: Item rendered successfully.");
+            }
+
+            // 6. Summary
+            Debug.Log(
+                $"[InventoryUI] Render Summary: " +
+                $"Rendered = {renderedCount}, " +
+                $"Empty = {emptyCount}, " +
+                $"Total Slots = {slots.Length}"
+            );
+
+            // 7. Refresh equipment indicators
             RefreshEquipmentIndicators();
+
+            Debug.Log("[InventoryUI] Equipment indicators refreshed.");
+            Debug.Log("[InventoryUI] ===== OnInventoryChanged END =====");
         }
+
 
         private void OnSlotClicked(
             int index)

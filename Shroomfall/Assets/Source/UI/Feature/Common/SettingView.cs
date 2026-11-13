@@ -8,7 +8,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Source.UI.Feature
+namespace Assets.Source.UI.Feature.Common
 {
     public class SettingView : MonoBehaviour
     {
