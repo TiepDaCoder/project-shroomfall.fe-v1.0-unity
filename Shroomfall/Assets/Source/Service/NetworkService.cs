@@ -1,6 +1,7 @@
 ﻿using Assets.Source.Core;
 using Assets.Source.Utility;
 using Contract;
+using Contract.DTO.Feature.Connection.Response;
 using Contract.DTO.Feature.Game.Response;
 using Contract.DTO.Runtime.EntityDomain.Component;
 using Microsoft.AspNetCore.SignalR.Client;
@@ -156,6 +157,15 @@ namespace Assets.Source.Service
             connection.On<object>(
                 NetworkMethod.OnInventoryCleared,
                 _ => { Core.ServiceProvider.Get<PlayerService>().OnInventoryCleared(); });
+
+            connection.On<EconomicUpdateDTO>(
+                NetworkMethod.OnEconomicUpdated,
+                dto => { Core.ServiceProvider.Get<PlayerService>().OnEconomicUpdated(dto); });
+
+            // --- Session Service ---
+            connection.On<SaveGameDTO>(
+                NetworkMethod.OnPlayerRespawned,
+                dto => { Core.ServiceProvider.Get<SessionService>().OnPlayerRespawned(dto); });
         }
 
         public async Task Send(

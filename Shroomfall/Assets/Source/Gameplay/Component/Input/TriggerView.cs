@@ -40,6 +40,10 @@ namespace Assets.Source.Gameplay.Component.Input
                 case TriggerPlateType.TravelBoard:
                     uiService.ShowTravelBoard();
                     break;
+
+                case TriggerPlateType.Shop:
+                    uiService.ShowShop();
+                    break;
             }
         }
         #endregion

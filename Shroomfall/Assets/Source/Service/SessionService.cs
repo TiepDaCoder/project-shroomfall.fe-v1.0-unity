@@ -97,6 +97,17 @@ namespace Assets.Source.Service
         #endregion
 
         #region Receivers
+        public void OnPlayerRespawned(
+            SaveGameDTO dto)
+        {
+            CoroutineRunner.Instance.Schedule(() =>
+            {
+                if (dto == null)
+                    return;
+
+                gameService.ConstructWorld(dto);
+            });
+        }
         #endregion
         #endregion
     }

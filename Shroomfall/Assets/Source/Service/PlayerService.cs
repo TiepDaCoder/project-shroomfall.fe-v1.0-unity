@@ -27,6 +27,7 @@ namespace Assets.Source.Service
         public EntityInstanceDTO Runtime { get; private set; }
 
         public event Action OnCharacteristicSync;
+        public event Action OnEconomicSync;
         #endregion
 
         public PlayerService() { }
@@ -52,6 +53,7 @@ namespace Assets.Source.Service
             Runtime = runtime;
             inventoryService.SyncInventory();
             OnCharacteristicSync?.Invoke();
+            OnEconomicSync?.Invoke();
         }
 
         public void UnloadPlayerData()
@@ -205,6 +207,24 @@ namespace Assets.Source.Service
 
                 // Notify HUD subscribers.
                 OnCharacteristicSync?.Invoke();
+            });
+        }
+
+        public void OnEconomicUpdated(
+            EconomicUpdateDTO dto)
+        {
+            CoroutineRunner.Instance.Schedule(() =>
+            {
+                if (Runtime?.Components == null || dto == null)
+                    return;
+
+                var economic = Runtime.Components.OfType<EconomicInstanceDTO>().FirstOrDefault();
+                if (economic != null)
+                    economic.CurrentMoney = dto.CurrentMoney;
+                else
+                    Runtime.Components.Add(new EconomicInstanceDTO { CurrentMoney = dto.CurrentMoney });
+
+                OnEconomicSync?.Invoke();
             });
         }
         #endregion

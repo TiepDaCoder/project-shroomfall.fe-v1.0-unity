@@ -178,6 +178,36 @@ namespace Assets.Source.Service
                 $"{Configuration.GAME_CONTROLLER}craft-item", dto);
         }
 
+        public async Task BuyItem(
+            string itemDefinitionId)
+        {
+            if (string.IsNullOrEmpty(itemDefinitionId))
+                return;
+
+            var dto = new BuyItemDTO
+            {
+                ItemDefinitionID = itemDefinitionId,
+            };
+
+            await HttpCaller.PostAsync<BuyItemDTO, VoidResponse>(
+                $"{Configuration.GAME_CONTROLLER}buy-item", dto);
+        }
+
+        public async Task SellItem(
+            string itemInstanceId)
+        {
+            if (string.IsNullOrEmpty(itemInstanceId))
+                return;
+
+            var dto = new SellItemDTO
+            {
+                ItemInstanceID = itemInstanceId,
+            };
+
+            await HttpCaller.PostAsync<SellItemDTO, VoidResponse>(
+                $"{Configuration.GAME_CONTROLLER}sell-item", dto);
+        }
+
         public async Task UseItem(
             Vector2 targetDirection)
         {

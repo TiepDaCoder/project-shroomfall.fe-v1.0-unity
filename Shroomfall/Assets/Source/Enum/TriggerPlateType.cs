@@ -5,5 +5,6 @@
         BackHome,
         EnterHub,
         TravelBoard,
+        Shop,
     }
 }
