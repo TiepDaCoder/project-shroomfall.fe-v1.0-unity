@@ -6,6 +6,7 @@
         public const string HUB_URL = "https://gamems-apirailwayinternal-production-4db5.up.railway.app/hubs/game";
         public const string CONNECTION_CONTROLLER = "game/connection/";
         public const string GAME_CONTROLLER = "game/game/";
+        public const string QUEST_CONTROLLER = "game/quest/";
         public const string IDENTITY_CONTROLLER = "management/identity/";
 
         public const string GOOGLE_CLIENT_ID = "724141116249-4fdc82rlh2eafnh2hrlkac51tv7uim2o.apps.googleusercontent.com";

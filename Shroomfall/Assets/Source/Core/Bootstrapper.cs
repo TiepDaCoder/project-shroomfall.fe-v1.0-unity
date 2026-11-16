@@ -96,6 +96,10 @@ namespace Assets.Source.Core
             var playerService = new PlayerService();
             ServiceProvider.Register<PlayerService>(playerService);
 
+            // Quest service
+            var questService = new QuestService();
+            ServiceProvider.Register<QuestService>(questService);
+
             // Screen service
             var screenService = new ScreenService(screenEffectSpawner);
             ServiceProvider.Register<ScreenService>(screenService);

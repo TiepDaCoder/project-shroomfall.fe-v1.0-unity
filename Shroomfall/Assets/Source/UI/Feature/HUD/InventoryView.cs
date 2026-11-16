@@ -32,6 +32,9 @@ namespace Assets.Source.UI.Feature.HUD
         [SerializeField] private Image inspectedCategoryImage;
         [SerializeField] private Image inspectedIconImage;
 
+        [Header("World Drop Zones")]
+        [SerializeField] private SlotDropZone[] dropZones;
+
         [Header("Data")]
         [SerializeField] private ItemCatalogSO itemCatalog;
         [SerializeField] private ItemCategoryCatalogSO itemCategoryCatalog;
@@ -59,6 +62,7 @@ namespace Assets.Source.UI.Feature.HUD
 
             InitializeSlots();
             InitializeEquipmentIndicators();
+            InitializeDropZones();
 
             inventoryService.OnChanged += OnInventoryChanged;
         }
@@ -83,6 +87,16 @@ namespace Assets.Source.UI.Feature.HUD
 
                 indicator.OnEquipRequested -= OnEquipRequested;
                 indicator.OnUnequipRequested -= OnUnequipRequested;
+            }
+
+            // Drop Zones
+            if (dropZones != null)
+            {
+                foreach (var zone in dropZones)
+                {
+                    if (zone != null)
+                        zone.OnDropRequested -= OnDropToWorldRequested;
+                }
             }
         }
 
@@ -132,6 +146,18 @@ namespace Assets.Source.UI.Feature.HUD
 
                 indicator.OnEquipRequested += OnEquipRequested;
                 indicator.OnUnequipRequested += OnUnequipRequested;
+            }
+        }
+
+        private void InitializeDropZones()
+        {
+            if (dropZones == null)
+                return;
+
+            foreach (var zone in dropZones)
+            {
+                if (zone != null)
+                    zone.OnDropRequested += OnDropToWorldRequested;
             }
         }
         #endregion
@@ -204,7 +230,6 @@ namespace Assets.Source.UI.Feature.HUD
             RefreshEquipmentIndicators();
         }
 
-
         private void OnSlotClicked(
             int index)
         {
@@ -219,6 +244,15 @@ namespace Assets.Source.UI.Feature.HUD
             int toIndex)
         {
             inventoryService.SwapInventorySlots(fromIndex, toIndex);
+        }
+
+        private void OnDropToWorldRequested(
+            string itemId)
+        {
+            AsyncHelper.Run(async () =>
+            {
+                await inventoryService.DropItem(itemId);
+            });
         }
 
         private void OnEquipRequested(

@@ -7,7 +7,7 @@ namespace Assets.Source.UI.Feature.HUD
 {
     public class HUDView : MonoBehaviour
     {
-        #region 
+        #region Attributes
         [Header("Canvas")]
         [SerializeField] private GameObject canvas;
 
@@ -18,6 +18,7 @@ namespace Assets.Source.UI.Feature.HUD
         [SerializeField] private Button characteristicButton;
         [SerializeField] private Button craftingButton;
         [SerializeField] private Button settingButton;
+        [SerializeField] private Button questButton;
 
         [Header("Views")]
         [SerializeField] private CustomizeView customizeView;
@@ -53,6 +54,7 @@ namespace Assets.Source.UI.Feature.HUD
             characteristicButton.onClick.AddListener(() => Open(characteristicView, characteristicButton));
             craftingButton.onClick.AddListener(() => Open(craftingView, craftingButton));
             settingButton.onClick.AddListener(() => uiService.ShowSetting());
+            questButton.onClick.AddListener(() => uiService.ShowQuest());
         }
 
         private void OnDestroy()
@@ -69,6 +71,7 @@ namespace Assets.Source.UI.Feature.HUD
             characteristicButton.onClick.RemoveAllListeners();
             craftingButton.onClick.RemoveAllListeners();
             settingButton.onClick.RemoveAllListeners();
+            questButton.onClick.RemoveAllListeners();
         }
 
         private void OnUIStateChanged(

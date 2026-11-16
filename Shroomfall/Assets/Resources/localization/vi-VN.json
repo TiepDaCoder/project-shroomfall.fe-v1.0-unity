@@ -329,6 +329,18 @@
       "value": "Tìm kiếm công thức..."
     },
     {
+      "key": "quest-view.identification-btn",
+      "value": "Thử thách nhận diện"
+    },
+    {
+      "key": "quest-view.shooting-btn",
+      "value": "Thử thách tiêu diệt"
+    },
+    {
+      "key": "quest-view.category-btn",
+      "value": "Thử thách sắp xếp"
+    },
+    {
       "key": "song.song-label",
       "value": "Phát nhạc:"
     },

@@ -208,6 +208,21 @@ namespace Assets.Source.Service
                 $"{Configuration.GAME_CONTROLLER}sell-item", dto);
         }
 
+        public async Task DropItem(
+            string itemInstanceId)
+        {
+            if (string.IsNullOrEmpty(itemInstanceId))
+                return;
+
+            var dto = new DropItemDTO
+            {
+                ItemInstanceID = itemInstanceId,
+            };
+
+            await HttpCaller.PostAsync<DropItemDTO, VoidResponse>(
+                $"{Configuration.GAME_CONTROLLER}drop-item", dto);
+        }
+
         public async Task UseItem(
             Vector2 targetDirection)
         {

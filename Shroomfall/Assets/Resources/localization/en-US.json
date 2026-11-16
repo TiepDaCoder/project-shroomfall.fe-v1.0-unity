@@ -329,6 +329,18 @@
       "value": "Search for item recipe..."
     },
     {
+      "key": "quest-view.identification-btn",
+      "value": "Identifying challenge"
+    },
+    {
+      "key": "quest-view.shooting-btn",
+      "value": "Shooting challenge"
+    },
+    {
+      "key": "quest-view.category-btn",
+      "value": "Categorizing challenge"
+    },
+    {
       "key": "song.song-label",
       "value": "Play song:"
     },

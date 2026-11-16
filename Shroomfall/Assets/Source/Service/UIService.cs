@@ -32,6 +32,7 @@ namespace Assets.Source.Service
         public event Action OnSettingRequested;
         public event Action OnTravelBoardRequested;
         public event Action OnShopRequested;
+        public event Action OnQuestRequested;
         public event Action<bool> OnGlobalInteractableChanged;
         public event Action<CursorType> OnCursorChanged;
         public event Action<(string message, Vector2 screenPosition)> OnCursorMessageRequested;
@@ -105,6 +106,11 @@ namespace Assets.Source.Service
         public void ShowShop()
         {
             OnShopRequested?.Invoke();
+        }
+
+        public void ShowQuest()
+        {
+            OnQuestRequested?.Invoke();
         }
 
         public void SetGlobalInteractable(
