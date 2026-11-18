@@ -31,6 +31,7 @@ namespace Assets.Source.UI.Feature.Common
 
             // UI Service
             uiService.OnTravelBoardRequested += Open;
+            uiService.OnCloseAllPopupsRequested += Close;
             uiService.OnGlobalInteractableChanged += SetInteractable;
 
             // Buttons
@@ -44,6 +45,7 @@ namespace Assets.Source.UI.Feature.Common
         {
             // UI Service
             uiService.OnTravelBoardRequested -= Open;
+            uiService.OnCloseAllPopupsRequested -= Close;
             uiService.OnGlobalInteractableChanged -= SetInteractable;
 
             // Buttons

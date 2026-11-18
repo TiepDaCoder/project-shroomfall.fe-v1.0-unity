@@ -49,6 +49,7 @@ namespace Assets.Source.UI.Feature.Common
 
             // Services
             uiService.OnQuestRequested += Open;
+            uiService.OnCloseAllPopupsRequested += Close;
             uiService.OnGlobalInteractableChanged += SetInteractable;
 
             // Buttons
@@ -67,6 +68,7 @@ namespace Assets.Source.UI.Feature.Common
         {
             // Services
             uiService.OnQuestRequested -= Open;
+            uiService.OnCloseAllPopupsRequested -= Close;
             uiService.OnGlobalInteractableChanged -= SetInteractable;
 
             // Buttons

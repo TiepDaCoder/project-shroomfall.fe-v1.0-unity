@@ -52,6 +52,7 @@ namespace Assets.Source.UI.Feature.Common
 
             // Services
             uiService.OnShopRequested += Open;
+            uiService.OnCloseAllPopupsRequested += Close;
             uiService.OnGlobalInteractableChanged += SetInteractable;
             definitionService.OnChanged += Render;
             inventoryService.OnChanged += Render;
@@ -68,6 +69,7 @@ namespace Assets.Source.UI.Feature.Common
         {
             // Services
             uiService.OnShopRequested -= Open;
+            uiService.OnCloseAllPopupsRequested -= Close;
             uiService.OnGlobalInteractableChanged -= SetInteractable;
             definitionService.OnChanged -= Render;
             inventoryService.OnChanged -= Render;

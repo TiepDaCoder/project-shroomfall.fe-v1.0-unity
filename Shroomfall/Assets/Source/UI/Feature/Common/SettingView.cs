@@ -81,6 +81,7 @@ namespace Assets.Source.UI.Feature.Common
             // UI Service
             uiService.OnSettingRequested += Open;
             uiService.OnUIStateChanged += Close;
+            uiService.OnCloseAllPopupsRequested += OnClose;
             uiService.OnGlobalInteractableChanged += SetInteractable;
 
             // Localize Service
@@ -113,6 +114,7 @@ namespace Assets.Source.UI.Feature.Common
                 // UI Service
                 uiService.OnSettingRequested -= Open;
                 uiService.OnUIStateChanged -= Close;
+                uiService.OnCloseAllPopupsRequested -= OnClose;
                 uiService.OnGlobalInteractableChanged -= SetInteractable;
 
                 // Localize Service

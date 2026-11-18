@@ -73,6 +73,7 @@ namespace Assets.Source.Gameplay.Component.Input
             // ========================================================
             if (keyboard.eKey.wasPressedThisFrame)
             {
+                uiService.CloseAllPopups();
                 uiService.ToggleBackpack();
             }
 
