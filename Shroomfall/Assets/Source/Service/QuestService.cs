@@ -3,6 +3,8 @@ using Contract.DTO.Abstraction;
 using Contract.DTO.Runtime.MetaDomain;
 using Contract.Enum.MetaDomain.Quest;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Assets.Source.Service
@@ -10,6 +12,7 @@ namespace Assets.Source.Service
     public class QuestService : IService
     {
         #region Attributes
+        private readonly Dictionary<string, QuestInstanceDTO> questCache = new Dictionary<string, QuestInstanceDTO>();
         #endregion
 
         #region Properties
@@ -51,6 +54,21 @@ namespace Assets.Source.Service
         {
             return await HttpCaller.PostAsync<string, QuestInstanceDTO>(
                 $"{Configuration.QUEST_CONTROLLER}accept", questInstanceId);
+        }
+
+        public async Task<QuestInstanceDTO> FetchQuest(
+            string questInstanceId)
+        {
+            if (questCache.TryGetValue(questInstanceId, out var cached))
+                return cached;
+
+            // Query API's SearchTerm matches on quest id
+            var result = await FetchQuests(null, questInstanceId);
+            var quest = result?.Items?.FirstOrDefault(x => x.Id == questInstanceId);
+            if (quest != null)
+                questCache[questInstanceId] = quest;
+
+            return quest;
         }
         #endregion
 

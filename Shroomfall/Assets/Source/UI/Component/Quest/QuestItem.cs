@@ -100,6 +100,14 @@ namespace Assets.Source.UI.Component.Quest
             if (quest == null)
                 return;
 
+            descriptionText.text = GetDescription(quest, localizeService.CurrentLocale);
+        }
+
+        internal static string GetDescription(
+            QuestInstanceDTO quest,
+            string locale)
+        {
+
             LocaleQuestDTO description = quest.Type switch
             {
                 QuestType.Identification => quest.IdentificationConfig?.Description,
@@ -109,8 +117,7 @@ namespace Assets.Source.UI.Component.Quest
             };
 
             var entries = description?.Entries;
-            descriptionText.text =
-                entries?.FirstOrDefault(entry => entry.Key == localizeService.CurrentLocale)?.Value
+            return entries?.FirstOrDefault(e => e.Key == locale)?.Value
                 ?? entries?.FirstOrDefault()?.Value
                 ?? string.Empty;
         }
@@ -133,7 +140,7 @@ namespace Assets.Source.UI.Component.Quest
         }
 
         // Server sends UTC; unspecified kind (no "Z") is treated as UTC too
-        private static DateTime ToUtc(
+        internal static DateTime ToUtc(
             DateTime value)
         {
             return value.Kind == DateTimeKind.Local

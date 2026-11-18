@@ -28,6 +28,7 @@ namespace Assets.Source.Service
 
         public event Action OnCharacteristicSync;
         public event Action OnEconomicSync;
+        public event Action<bool> OnQuestProgressSync;
         #endregion
 
         public PlayerService() { }
@@ -54,6 +55,7 @@ namespace Assets.Source.Service
             inventoryService.SyncInventory();
             OnCharacteristicSync?.Invoke();
             OnEconomicSync?.Invoke();
+            OnQuestProgressSync?.Invoke(false);
         }
 
         public void UnloadPlayerData()
@@ -225,6 +227,22 @@ namespace Assets.Source.Service
                     Runtime.Components.Add(new EconomicInstanceDTO { CurrentMoney = dto.CurrentMoney });
 
                 OnEconomicSync?.Invoke();
+            });
+        }
+
+        public void OnQuestProgressUpdated(
+            QuestProgressInstanceDTO dto)
+        {
+            CoroutineRunner.Instance.Schedule(() =>
+            {
+                if (Runtime?.Components == null || dto == null)
+                    return;
+
+                // Server sends the whole component, so replace it
+                Runtime.Components.RemoveAll(c => c is QuestProgressInstanceDTO);
+                Runtime.Components.Add(dto);
+
+                OnQuestProgressSync?.Invoke(true);
             });
         }
         #endregion

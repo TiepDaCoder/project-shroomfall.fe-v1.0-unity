@@ -162,6 +162,10 @@ namespace Assets.Source.Service
                 NetworkMethod.OnEconomicUpdated,
                 dto => { Core.ServiceProvider.Get<PlayerService>().OnEconomicUpdated(dto); });
 
+            connection.On<QuestProgressInstanceDTO>(
+                NetworkMethod.OnQuestProgressUpdated,
+                dto => { Core.ServiceProvider.Get<PlayerService>().OnQuestProgressUpdated(dto); });
+
             // --- Session Service ---
             connection.On<SaveGameDTO>(
                 NetworkMethod.OnPlayerRespawned,
