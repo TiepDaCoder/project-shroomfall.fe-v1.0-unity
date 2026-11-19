@@ -341,6 +341,14 @@
       "value": "Categorizing challenge"
     },
     {
+      "key": "quest-progress-item.reward-header",
+      "value": "Rewards"
+    },
+    {
+      "key": "quest-item.reward-header",
+      "value": "Rewards"
+    },
+    {
       "key": "song.song-label",
       "value": "Play song:"
     },

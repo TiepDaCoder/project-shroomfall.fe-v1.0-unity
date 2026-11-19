@@ -3,6 +3,7 @@ using Assets.Source.Service;
 using Contract.DTO.Runtime.MetaDomain;
 using Contract.Enum.MetaDomain.Quest;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -20,6 +21,10 @@ namespace Assets.Source.UI.Component.Quest
         [SerializeField] private TMP_Text expireText;
         [SerializeField] private Image timerBar;
 
+        [Header("Rewards")]
+        [SerializeField] private Transform rewardContent;
+        [SerializeField] private QuestItemReward rewardPrefab;
+
         [Header("Buttons")]
         [SerializeField] private UnityEngine.UI.Button acceptButton;
 
@@ -33,6 +38,7 @@ namespace Assets.Source.UI.Component.Quest
         private DateTime createdAtUtc;
         private DateTime expiredAtUtc;
         private Action onAccept;
+        private readonly List<QuestItemReward> rewards = new();
         #endregion
 
         #region Properties
@@ -57,6 +63,8 @@ namespace Assets.Source.UI.Component.Quest
 
             // Buttons
             acceptButton.onClick.RemoveAllListeners();
+
+            QuestItemReward.Clear(rewards);
         }
 
         private void Update()
@@ -87,6 +95,7 @@ namespace Assets.Source.UI.Component.Quest
 
             RenderDescription();
             RenderTimer();
+            QuestItemReward.RenderAll(quest.QuestRewardConfig, rewardPrefab, rewardContent, rewards);
         }
 
         public void SetInteractable(

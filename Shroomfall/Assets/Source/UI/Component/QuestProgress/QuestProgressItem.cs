@@ -5,6 +5,7 @@ using Contract.DTO.Runtime.EntityDomain.Component;
 using Contract.DTO.Runtime.MetaDomain;
 using Contract.Enum.EntityDomain;
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,6 +20,10 @@ namespace Assets.Source.UI.Component.QuestProgress
         [SerializeField] private TMP_Text createdText;
         [SerializeField] private TMP_Text expireText;
 
+        [Header("Rewards")]
+        [SerializeField] private Transform rewardContent;
+        [SerializeField] private QuestItemReward rewardPrefab;
+
         [Header("Timer")]
         [SerializeField] private Image timerBar;
         [SerializeField] private TMP_Text timerText;
@@ -32,6 +37,7 @@ namespace Assets.Source.UI.Component.QuestProgress
         private QuestProgressEntryDTO entry;
         private DateTime createdAtUtc;
         private DateTime expiredAtUtc;
+        private readonly List<QuestItemReward> rewards = new();
         #endregion
 
         #region Properties
@@ -50,6 +56,8 @@ namespace Assets.Source.UI.Component.QuestProgress
         {
             // Services
             localizeService.OnLocaleChanged -= RenderDescription;
+
+            QuestItemReward.Clear(rewards);
         }
 
         private void Update()
@@ -74,6 +82,7 @@ namespace Assets.Source.UI.Component.QuestProgress
             RenderDescription();
             RenderTimer();
             RenderProgress();
+            QuestItemReward.RenderAll(quest.QuestRewardConfig, rewardPrefab, rewardContent, rewards);
         }
 
         private void RenderDescription()
