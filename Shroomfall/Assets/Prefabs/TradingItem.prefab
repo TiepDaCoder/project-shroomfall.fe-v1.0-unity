@@ -409,7 +409,7 @@ MonoBehaviour:
   itemNameText: {fileID: 403794879395855048}
   priceText: {fileID: 1425670025183675652}
   tradeButton: {fileID: 1422261137973165791}
-  sellPriceColor: {r: 0, g: 1, b: 0, a: 1}
+  sellPriceColor: {r: 0, g: 0.6698113, b: 0.000000039923865, a: 1}
   buyPriceColor: {r: 1, g: 0, b: 0, a: 1}
   itemCatalog: {fileID: 11400000, guid: 937b59bd9c3268e4fad0c940466c5be4, type: 2}
 --- !u!222 &5160651157707892920
