@@ -1,4 +1,5 @@
 ﻿using Assets.Source.Core;
+using Assets.Source.Data;
 using Assets.Source.Service;
 using Assets.Source.UI.Component.QuestProgress;
 using Assets.Source.Utility;
@@ -8,6 +9,7 @@ using Contract.Enum.EntityDomain;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -35,8 +37,20 @@ namespace Assets.Source.UI.Feature.HUD
         [SerializeField] private int particleBurstCount = 30;
         [SerializeField] private GameObject updateIndicator;
 
+        [Header("Gacha Popup")]
+        [SerializeField] private RectTransform gachaPopupRoot;
+        [SerializeField] private Image gachaItemIcon;
+        [SerializeField] private TMP_Text gachaResultText;
+        [SerializeField] private Button gachaCloseButton;
+        [SerializeField] private Animator gachaMachineAnimator;
+        [SerializeField] private ItemCatalogSO itemCatalog;
+        [SerializeField] private float machineFallDuration = 0.5f;
+        [SerializeField] private float rollDuration = 3f;
+        [SerializeField] private float rollIconInterval = 0.08f;
+
         private PlayerService playerService;
         private QuestService questService;
+        private UIService uiService;
 
         private readonly List<QuestProgressItem> items = new();
         private int renderVersion;
@@ -45,6 +59,10 @@ namespace Assets.Source.UI.Feature.HUD
         private Vector2 hiddenPosition;
         private bool isShown;
         private Coroutine slideCoroutine;
+
+        private RectTransform machineRect;
+        private Vector2 machineCenter;
+        private Coroutine gachaCoroutine;
         #endregion
 
         #region Properties
@@ -55,6 +73,7 @@ namespace Assets.Source.UI.Feature.HUD
         {
             playerService = ServiceProvider.Get<PlayerService>();
             questService = ServiceProvider.Get<QuestService>();
+            uiService = ServiceProvider.Get<UIService>();
 
             // Shown position is wherever the list is placed in the editor
             shownPosition = listRoot.anchoredPosition;
@@ -65,11 +84,17 @@ namespace Assets.Source.UI.Feature.HUD
             listRoot.anchoredPosition = isShown ? shownPosition : hiddenPosition;
             updateIndicator.SetActive(false);
 
+            // Machine lands wherever it is placed in the editor
+            machineRect = (RectTransform)gachaMachineAnimator.transform;
+            machineCenter = machineRect.anchoredPosition;
+            gachaPopupRoot.gameObject.SetActive(false);
+
             // Player Service
             playerService.OnQuestProgressSync += QuestProgressSync;
 
             // Buttons
             toggleButton.onClick.AddListener(Toggle);
+            gachaCloseButton.onClick.AddListener(CloseGachaPopup);
 
             QuestProgressSync(false);
         }
@@ -81,6 +106,7 @@ namespace Assets.Source.UI.Feature.HUD
 
             // Buttons
             toggleButton.onClick.RemoveAllListeners();
+            gachaCloseButton.onClick.RemoveAllListeners();
 
             ClearItems();
         }
@@ -153,8 +179,33 @@ namespace Assets.Source.UI.Feature.HUD
                 foreach (var (entry, quest) in rows)
                 {
                     var item = Instantiate(questProgressItemPrefab, content);
-                    item.Render(entry, quest);
+                    item.Render(entry, quest, () => Claim(item, quest));
                     items.Add(item);
+                }
+            });
+        }
+
+        private void Claim(
+            QuestProgressItem item,
+            QuestInstanceDTO quest)
+        {
+            // Block double claims; the Rewarded sync removes the row on success
+            item.SetClaimInteractable(false);
+            OpenGachaPopup();
+
+            AsyncHelper.Run(uiService, async () =>
+            {
+                try
+                {
+                    var reward = await questService.ClaimReward(quest.Id);
+                    gachaCoroutine = StartCoroutine(Roll(quest.QuestRewardConfig, reward));
+                }
+                catch
+                {
+                    CloseGachaPopup();
+                    if (item != null)
+                        item.SetClaimInteractable(true);
+                    throw;
                 }
             });
         }
@@ -183,6 +234,83 @@ namespace Assets.Source.UI.Feature.HUD
             }
 
             items.Clear();
+        }
+        #endregion
+
+        #region Gacha Popup
+        private void OpenGachaPopup()
+        {
+            gachaPopupRoot.gameObject.SetActive(true);
+
+            // Park the machine above the top edge, still, until the reward arrives
+            gachaMachineAnimator.enabled = false;
+            machineRect.anchoredPosition = MachineStart();
+            gachaItemIcon.enabled = false;
+            gachaResultText.text = string.Empty;
+            gachaCloseButton.gameObject.SetActive(false);
+        }
+
+        private void CloseGachaPopup()
+        {
+            if (gachaCoroutine != null)
+                StopCoroutine(gachaCoroutine);
+            gachaCoroutine = null;
+
+            gachaPopupRoot.gameObject.SetActive(false);
+        }
+
+        private Vector2 MachineStart()
+        {
+            return machineCenter + new Vector2(0f, gachaPopupRoot.rect.height / 2f + machineRect.rect.height / 2f);
+        }
+
+        // Result is already decided by the server; the roll is only a visual
+        private IEnumerator Roll(
+            QuestRewardConfig config,
+            ItemInstanceDTO result)
+        {
+            // Fall straight down to center
+            Vector2 start = MachineStart();
+            float elapsed = 0f;
+            while (elapsed < machineFallDuration)
+            {
+                elapsed += Time.unscaledDeltaTime;
+                float t = Mathf.Clamp01(elapsed / machineFallDuration);
+                machineRect.anchoredPosition = Vector2.LerpUnclamped(start, machineCenter, t * t);
+                yield return null;
+            }
+            machineRect.anchoredPosition = machineCenter;
+
+            // Landed: restart the default clip from frame 0, then wait it out
+            gachaMachineAnimator.enabled = true;
+            gachaMachineAnimator.Rebind();
+            yield return null;
+            AnimatorStateInfo state = gachaMachineAnimator.GetCurrentAnimatorStateInfo(0);
+            yield return new WaitForSecondsRealtime(state.length / Mathf.Max(state.speed, 0.01f));
+
+            var icons = new List<Sprite>();
+            foreach (GachaRewardEntryDTO entry in config?.Entries ?? new List<GachaRewardEntryDTO>())
+            {
+                if (itemCatalog.TryGet(entry.ItemDefinitionId, out ItemAsset asset) && asset.icon != null)
+                    icons.Add(asset.icon);
+            }
+
+            gachaItemIcon.enabled = true;
+            elapsed = 0f;
+            int index = 0;
+            while (elapsed < rollDuration && icons.Count > 0)
+            {
+                gachaItemIcon.sprite = icons[index++ % icons.Count];
+                yield return new WaitForSecondsRealtime(rollIconInterval);
+                elapsed += rollIconInterval;
+            }
+
+            gachaItemIcon.sprite = itemCatalog.TryGet(result.DefinitionID, out ItemAsset resultAsset)
+                ? resultAsset.icon
+                : null;
+            gachaResultText.text = $"x{result.Amount} ({result.Quality})";
+            gachaCloseButton.gameObject.SetActive(true);
+            gachaCoroutine = null;
         }
         #endregion
         #endregion

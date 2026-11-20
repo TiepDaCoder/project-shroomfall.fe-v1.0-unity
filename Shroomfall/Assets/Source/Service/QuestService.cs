@@ -56,6 +56,13 @@ namespace Assets.Source.Service
                 $"{Configuration.QUEST_CONTROLLER}accept", questInstanceId);
         }
 
+        public async Task<ItemInstanceDTO> ClaimReward(
+            string questInstanceId)
+        {
+            return await HttpCaller.PostAsync<string, ItemInstanceDTO>(
+                $"{Configuration.QUEST_CONTROLLER}gacha", questInstanceId);
+        }
+
         public async Task<QuestInstanceDTO> FetchQuest(
             string questInstanceId)
         {

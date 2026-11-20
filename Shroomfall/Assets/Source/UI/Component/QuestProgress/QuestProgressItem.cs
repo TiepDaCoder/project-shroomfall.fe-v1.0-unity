@@ -32,11 +32,15 @@ namespace Assets.Source.UI.Component.QuestProgress
         [SerializeField] private Image progressBar;
         [SerializeField] private TMP_Text progressText;
 
+        [Header("Buttons")]
+        [SerializeField] private UnityEngine.UI.Button claimButton;
+
         private LocalizeService localizeService;
         private QuestInstanceDTO quest;
         private QuestProgressEntryDTO entry;
         private DateTime createdAtUtc;
         private DateTime expiredAtUtc;
+        private Action onClaim;
         private readonly List<QuestItemReward> rewards = new();
         #endregion
 
@@ -50,12 +54,18 @@ namespace Assets.Source.UI.Component.QuestProgress
 
             // Services
             localizeService.OnLocaleChanged += RenderDescription;
+
+            // Buttons
+            claimButton.onClick.AddListener(() => onClaim?.Invoke());
         }
 
         private void OnDestroy()
         {
             // Services
             localizeService.OnLocaleChanged -= RenderDescription;
+
+            // Buttons
+            claimButton.onClick.RemoveAllListeners();
 
             QuestItemReward.Clear(rewards);
         }
@@ -68,10 +78,15 @@ namespace Assets.Source.UI.Component.QuestProgress
 
         public void Render(
             QuestProgressEntryDTO entry,
-            QuestInstanceDTO quest)
+            QuestInstanceDTO quest,
+            Action onClaim)
         {
             this.entry = entry;
             this.quest = quest;
+            this.onClaim = onClaim;
+
+            claimButton.gameObject.SetActive(entry.Status == QuestProgressStatus.Completed);
+            claimButton.interactable = true;
 
             createdAtUtc = QuestItem.ToUtc(quest.CreatedAt);
             expiredAtUtc = QuestItem.ToUtc(quest.ExpiredAt);
@@ -83,6 +98,12 @@ namespace Assets.Source.UI.Component.QuestProgress
             RenderTimer();
             RenderProgress();
             QuestItemReward.RenderAll(quest.QuestRewardConfig, rewardPrefab, rewardContent, rewards);
+        }
+
+        public void SetClaimInteractable(
+            bool interactable)
+        {
+            claimButton.interactable = interactable;
         }
 
         private void RenderDescription()
